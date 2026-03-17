@@ -1,24 +1,46 @@
 /* ===============================
    Homepage Final Polish
+   Academic + Elegant Typography
 =============================== */
 
-/* Profile (右侧信息区) */
+/* 全站基础字体：英文更柔和，中文更自然 */
+body {
+  font-family: "Georgia", "Times New Roman",
+               "Noto Serif CJK SC", "Source Han Serif SC",
+               "Songti SC", serif;
+  font-size: 16.5px;
+  line-height: 1.75;
+  letter-spacing: 0.15px;
+}
+
+/* Profile（右侧信息区，头像下方） */
 .profile p,
 .profile div,
 .profile span,
-.profile li {
-  font-family: "Times New Roman", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+.profile li,
+.profile .more-info {
+  font-family: "Georgia", "Times New Roman",
+               "Noto Serif CJK SC", "Source Han Serif SC",
+               "Songti SC", serif;
+  font-size: 15.5px;
   line-height: 1.65;
 }
 
-/* 标题优化 */
+/* 标题优化：更像学术网页 */
+.post h1,
 .post h2,
 .post h3,
+.post h4,
+.about h1,
 .about h2,
-.about h3 {
+.about h3,
+.about h4 {
+  font-family: "Georgia", "Times New Roman", serif;
   margin-top: 1.8rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.65rem;
   font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.2px;
 }
 
 /* 正文更像论文 */
@@ -26,29 +48,91 @@
 .about p,
 .post li,
 .about li {
-  line-height: 1.75;
+  line-height: 1.78;
 }
 
-/* publications间距 */
-.publications ol.bibliography li {
-  margin-bottom: 1.2rem;
+/* 研究兴趣、profiles 这种列表更紧凑一点 */
+.about ul,
+.post ul {
+  margin-bottom: 1rem;
+}
+
+.about ul li,
+.post ul li {
+  margin-bottom: 0.25rem;
+}
+
+/* publications 间距 */
+.publications ol.bibliography li,
+ol.bibliography li {
+  margin-bottom: 1.25rem;
+  line-height: 1.65;
+}
+
+/* publication 标题、作者、期刊信息更协调 */
+.bibliography .title {
+  font-family: "Georgia", "Times New Roman",
+               "Noto Serif CJK SC", "Source Han Serif SC",
+               "Songti SC", serif;
+  font-weight: 600;
+}
+
+.bibliography .author,
+.bibliography .authors,
+.bibliography .periodical,
+.bibliography .journal {
+  line-height: 1.6;
 }
 
 /* 社交图标 */
 .social a {
-  margin-right: 0.5rem;
+  margin-right: 0.55rem;
 }
 
-/* visitors地图 */
+/* about 页 visitors 地图/图片居中 */
 .about img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Academic Profiles 链接更自然 */
+.about a,
+.post a {
+  text-underline-offset: 2px;
+}
+
+/* 分隔线更有留白 */
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* 小屏优化 */
 @media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.72;
+  }
+
   .profile {
     margin-bottom: 1rem;
+  }
+
+  .profile p,
+  .profile div,
+  .profile span,
+  .profile li,
+  .profile .more-info {
+    font-size: 15px;
+  }
+
+  .post h1,
+  .post h2,
+  .post h3,
+  .about h1,
+  .about h2,
+  .about h3 {
+    margin-top: 1.4rem;
   }
 }
