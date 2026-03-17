@@ -1,19 +1,13 @@
-- name: Google Scholar
-  icon: ai ai-google-scholar
-  url: https://scholar.google.com/citations?user=_F0Jv-kAAAAJ
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
 
-- name: ORCID
-  icon: ai ai-orcid
-  url: https://orcid.org/0000-0001-6359-8028
+email: gutsgeo@cug.edu.cn
+github_username: TianshunGu
+orcid_id: 0000-0001-6359-8028
+scholar_userid: _F0Jv-kAAAAJ
+rss_icon: true
 
-- name: ResearchGate
-  icon: ai ai-researchgate
+custom_social:
+  logo: /assets/img/researchgate.png
+  title: ResearchGate
   url: https://www.researchgate.net/profile/Tianshun-Gu
-
-- name: Email
-  icon: fas fa-envelope
-  url: mailto:gutsgeo@cug.edu.cn
-
-- name: GitHub
-  icon: fab fa-github
-  url: https://github.com/TianshunGu
