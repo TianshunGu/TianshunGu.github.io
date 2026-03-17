@@ -1,15 +1,9 @@
-- name: Google Scholar
-  icon: ai ai-google-scholar
-  url: https://scholar.google.com/citations?user=_F0Jv-kAAAAJ
+email: gutsgeo@cug.edu.cn
 
-- name: ORCID
-  icon: ai ai-orcid
-  url: https://orcid.org/0000-0001-6359-8028
+google_scholar: https://scholar.google.com/citations?user=_F0Jv-kAAAAJ
 
-- name: ResearchGate
-  icon: ai ai-researchgate
-  url: https://www.researchgate.net/profile/Tianshun-Gu
+orcid: https://orcid.org/0000-0001-6359-8028
 
-- name: Email
-  icon: fas fa-envelope
-  url: mailto:gutsgeo@cug.edu.cn
+researchgate: https://www.researchgate.net/profile/Tianshun-Gu
+
+github: https://github.com/TianshunGu
