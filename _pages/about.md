@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Tianshun Gu
 permalink: /
 subtitle: PhD candidate in Hydroclimatology · China University of Geosciences (Wuhan)
 
