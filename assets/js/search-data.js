@@ -440,7 +440,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-study-on-the-intensification-of-spatiotemporal-clustering-of-extreme-precipitation-under-urbanization-has-been-published-in-journal-of-hydrology-jcr-q1-top-tier-this-work-provides-new-insights-into-how-urbanization-reshapes-the-organization-and-persistence-of-extreme-rainfall-events-read-more-wechat-article-in-chinese",
+            },},{id: "news-selected-for-the-phd-program-of-the-young-scientists-support-project-2025-by-the-china-association-for-science-and-technology-cast-this-program-supports-outstanding-early-career-researchers-and-phd-students-in-advancing-frontier-scientific-research-read-more-wechat-article-in-chinese",
+          title: '🏆 Selected for the PhD Program of the Young Scientists Support Project (2025)...',
+          description: "",
+          section: "News",},{id: "news-our-study-on-the-intensification-of-spatiotemporal-clustering-of-extreme-precipitation-under-urbanization-has-been-published-in-journal-of-hydrology-jcr-q1-top-tier-this-work-provides-new-insights-into-how-urbanization-reshapes-the-organization-and-persistence-of-extreme-rainfall-events-read-more-wechat-article-in-chinese",
           title: '📄 Our study on the intensification of spatiotemporal clustering of extreme precipitation under...',
           description: "",
           section: "News",},{id: "news-our-study-on-the-attribution-of-spatially-compounding-heatwave-flood-events-has-been-published-in-journal-of-geophysical-research-atmospheres-nature-index-journal-this-work-advances-the-understanding-of-compound-climate-extremes-by-disentangling-the-mechanisms-driving-the-co-occurrence-of-heatwaves-and-flooding-at-regional-scales-read-more-wechat-article-in-chinese",
