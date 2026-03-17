@@ -46,16 +46,16 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 I also curate *Urban Geography Illumination* (城市地理之光), a public science communication platform dedicated to urban geography, where I share insights and perspectives on urban science and geography.
 
-## Global Visitors
+## 🌐 Global Visitors
 
 A snapshot of the global distribution of visitors to this website.
 
-<div style="display: flex; justify-content: center; margin: 1rem 0 0.5rem 0;">
-  <a href="https://info.flagcounter.com/0NPa" target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://s01.flagcounter.com/count2/0NPa/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/"
-      alt="Visitors by country"
-      style="max-width: 360px; width: 100%; height: auto; border-radius: 8px;"
+<div style="display: flex; justify-content: center; margin: 1.5rem 0 0.5rem 0;">
+  <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="https://s01.flagcounter.com/map/jlT1/size_m/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" 
+      alt="Visitor map"
+      style="max-width: 720px; width: 100%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
     >
   </a>
 </div>
