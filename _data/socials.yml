@@ -1,13 +1,5 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-
 email: gutsgeo@cug.edu.cn
 github_username: TianshunGu
 orcid_id: 0000-0001-6359-8028
 scholar_userid: _F0Jv-kAAAAJ
 rss_icon: true
-
-custom_social:
-  logo: /assets/img/researchgate.png
-  title: ResearchGate
-  url: https://www.researchgate.net/profile/Tianshun-Gu
