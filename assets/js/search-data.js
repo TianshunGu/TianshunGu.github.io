@@ -440,7 +440,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-selected-for-the-phd-program-of-the-young-scientists-support-project-2025-by-the-china-association-for-science-and-technology-cast-this-program-supports-outstanding-early-career-researchers-and-phd-students-in-advancing-frontier-scientific-research-read-more-wechat-article-in-chinese",
+            },},{id: "news-our-paper-titled-attribution-analysis-of-urban-social-resilience-differences-under-rainstorm-disaster-impact-insights-from-an-interpretable-spatial-machine-learning-framework-published-in-sustainable-cities-and-society-has-been-recognized-as-an-esi-highly-cited-hot-paper-this-study-integrates-interpretable-spatial-machine-learning-to-uncover-the-drivers-of-social-resilience-disparities-under-extreme-rainfall-events",
+          title: '📄 Our paper titled “Attribution analysis of urban social resilience differences under rainstorm...',
+          description: "",
+          section: "News",},{id: "news-selected-for-the-phd-program-of-the-young-scientists-support-project-2025-by-the-china-association-for-science-and-technology-cast-this-program-supports-outstanding-early-career-researchers-and-phd-students-in-advancing-frontier-scientific-research-read-more-wechat-article-in-chinese",
           title: '🏆 Selected for the PhD Program of the Young Scientists Support Project (2025)...',
           description: "",
           section: "News",},{id: "news-our-study-on-the-intensification-of-spatiotemporal-clustering-of-extreme-precipitation-under-urbanization-has-been-published-in-journal-of-hydrology-jcr-q1-top-tier-this-work-provides-new-insights-into-how-urbanization-reshapes-the-organization-and-persistence-of-extreme-rainfall-events-read-more-wechat-article-in-chinese",
