@@ -4,6 +4,22 @@
 
 @use "variables" as v;
 
+/* ------------------------------
+ * Elegant mixed Chinese-English serif stack
+ * English: Times New Roman
+ * Chinese: Noto/Source Han/Songti fallbacks
+ * ------------------------------ */
+$font-serif-mixed:
+  "Times New Roman",
+  "Times",
+  "Noto Serif",
+  "Noto Serif CJK SC",
+  "Source Han Serif SC",
+  "Songti SC",
+  "STSong",
+  "SimSun",
+  serif;
+
 p,
 h1,
 h2,
@@ -17,6 +33,34 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: $font-serif-mixed;
+}
+
+/* Make body text slightly more elegant and readable */
+p,
+li,
+div,
+span {
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+/* Headings: academic, clean, slightly tighter */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-serif-mixed;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+/* Optional: improve italics rendering */
+em {
+  font-style: italic;
 }
 
 hr {
@@ -24,6 +68,8 @@ hr {
 }
 
 table {
+  font-family: $font-serif-mixed;
+
   td,
   th {
     font-size: 1rem;
@@ -51,6 +97,7 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
+
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
@@ -61,7 +108,9 @@ blockquote {
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-family: $font-serif-mixed;
+  line-height: 1.75;
 
   p {
     margin-bottom: 0;
@@ -132,5 +181,18 @@ blockquote {
     h6 {
       color: var(--global-danger-block-title);
     }
+  }
+}
+
+/* Profile section under your photo */
+.profile {
+  font-family: $font-serif-mixed;
+
+  p,
+  div,
+  span,
+  li {
+    font-family: $font-serif-mixed;
+    line-height: 1.65;
   }
 }
