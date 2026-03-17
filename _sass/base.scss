@@ -1,0 +1,54 @@
+/* ===============================
+   Homepage Final Polish
+=============================== */
+
+/* Profile (右侧信息区) */
+.profile p,
+.profile div,
+.profile span,
+.profile li {
+  font-family: "Times New Roman", "Noto Serif CJK SC", "Source Han Serif SC", serif;
+  line-height: 1.65;
+}
+
+/* 标题优化 */
+.post h2,
+.post h3,
+.about h2,
+.about h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+/* 正文更像论文 */
+.post p,
+.about p,
+.post li,
+.about li {
+  line-height: 1.75;
+}
+
+/* publications间距 */
+.publications ol.bibliography li {
+  margin-bottom: 1.2rem;
+}
+
+/* 社交图标 */
+.social a {
+  margin-right: 0.5rem;
+}
+
+/* visitors地图 */
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 小屏优化 */
+@media (max-width: 768px) {
+  .profile {
+    margin-bottom: 1rem;
+  }
+}
