@@ -130,7 +130,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
       transition: all 0.2s ease;
     "
   >
-    Appreciate this page
+    ✦ Appreciate this page
   </button>
   <div
     id="like-message"
@@ -141,7 +141,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
       display: none;
     "
   >
-    Thank you. Wishing you smooth progress in research, papers, and funding.
+    Thank you. Wishing you every success in your research, publications, and future funding.
   </div>
 </div>
 
@@ -155,7 +155,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
         button.style.background = "#f6f1ff";
         button.style.borderColor = "#d7c3f3";
         button.style.color = "#6f42c1";
-        button.innerHTML = "Appreciated";
+        button.innerHTML = "✦ Appreciated";
         message.style.display = "block";
       });
     }
