@@ -71,7 +71,7 @@ description: News and updates
   Received an M.S. degree in Geography from Henan University.
 
 - **Jun 2024**  
-  Invited to present at the GISChat Academic Salon (Episode 8).  
+  Invited to present at the GISChat Academic Salon (Episode 8), organized by Dr. Yan Zhang.  
   [Post](https://mp.weixin.qq.com/s/yXWdgSEImEqtuUzttcEoYQ)
 
 - **Apr 2024**  
