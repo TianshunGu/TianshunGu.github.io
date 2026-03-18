@@ -9,9 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>PhD candidate</p>
-    <p>China University of Geosciences (Wuhan)</p>
-    <p>Email: gutsgeo@cug.edu.cn</p>
+    <p>PhD Candidate</p>
+    <p>Wuhan, China</p>
+    <p>
+      <a href="mailto:gutsgeo@cug.edu.cn" style="color:#6f42c1; text-decoration:none;">
+        gutsgeo@cug.edu.cn
+      </a>
+    </p>
 
 selected_papers: true
 social: true
@@ -38,10 +42,23 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Academic Profiles
 
-- [Google Scholar](https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en)
-- [ORCID](https://orcid.org/0000-0001-6359-8028)
-- [ResearchGate](https://www.researchgate.net/profile/Tianshun-Gu)
-- [GitHub](https://github.com/TianshunGu)
+<p style="line-height: 1.9;">
+  <a href="https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en" target="_blank">
+    <i class="ai ai-google-scholar" style="margin-right:6px;"></i> Google Scholar
+  </a><br>
+
+  <a href="https://orcid.org/0000-0001-6359-8028" target="_blank">
+    <i class="fab fa-orcid" style="margin-right:6px;"></i> ORCID
+  </a><br>
+
+  <a href="https://www.researchgate.net/profile/Tianshun-Gu" target="_blank">
+    <i class="fab fa-researchgate" style="margin-right:6px;"></i> ResearchGate
+  </a><br>
+
+  <a href="https://github.com/TianshunGu" target="_blank">
+    <i class="fab fa-github" style="margin-right:6px;"></i> GitHub
+  </a>
+</p>
 
 ## Outreach
 
