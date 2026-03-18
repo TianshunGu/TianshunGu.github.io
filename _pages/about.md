@@ -21,8 +21,6 @@ social: true
 
 announcements:
   enabled: false
-  scrollable: true
-  limit: 3
 
 latest_posts:
   enabled: false
@@ -36,28 +34,29 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Research Interests
 
-- Hydroclimatic effects of urbanization  
-- Urban climate resilience and sustainability  
-- Detection and attribution using machine learning   
+- Hydroclimatic impacts of urbanization
+- Extreme precipitation dynamics and persistence
+- Urban climate resilience and flood risk
+- Data-driven and interpretable modeling in hydroclimate
 
 ---
 
 ## Academic Profiles
 
-<p style="line-height: 1.9;">
-  <a href="https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en" target="_blank">
+<p style="line-height: 2;">
+  <a href="https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
     <i class="ai ai-google-scholar" style="margin-right:6px;"></i> Google Scholar
   </a><br>
 
-  <a href="https://orcid.org/0000-0001-6359-8028" target="_blank">
+  <a href="https://orcid.org/0000-0001-6359-8028" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-orcid" style="margin-right:6px;"></i> ORCID
   </a><br>
 
-  <a href="https://www.researchgate.net/profile/Tianshun-Gu" target="_blank">
+  <a href="https://www.researchgate.net/profile/Tianshun-Gu" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-researchgate" style="margin-right:6px;"></i> ResearchGate
   </a><br>
 
-  <a href="https://github.com/TianshunGu" target="_blank">
+  <a href="https://github.com/TianshunGu" target="_blank" rel="noopener noreferrer">
     <i class="fab fa-github" style="margin-right:6px;"></i> GitHub
   </a>
 </p>
@@ -66,7 +65,7 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Outreach
 
-I also curate *Urban Geography Illumination* (城市地理之光), a public science communication platform dedicated to urban geography, where I share insights and perspectives on urban science and geography.
+I also curate *Urban Geography Illumination* (城市地理之光), a public science communication initiative on urban geography, where I share ideas and reflections on urban science and geographical research.
 
 ---
 
@@ -84,11 +83,15 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 
 {% bibliography --query @*[homepage_selected=true] %}
 
+<p style="margin-top:0.5rem;">
+  <a href="/publications/">→ View all publications</a>
+</p>
+
 ---
 
 ## Global Visitors
 
-<div style="margin-top: 1.5rem;">
+<div style="margin-top: 1.25rem;">
   <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer" style="display:block;">
     <img
       src="https://s01.flagcounter.com/map/jlT1/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
