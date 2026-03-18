@@ -1,31 +1,46 @@
 /* ===============================
-   MIT-Style Academic Typography
-   Final Custom Styles
+   Clean Modern Academic Style
+   Sans-serif titles + body
 =============================== */
 
-/* ===== 正文：干净 sans-serif ===== */
-body {
+/* ===== 全局字体：强制覆盖 ===== */
+html,
+body,
+.page,
+.post,
+.about,
+.post-content,
+.page-content,
+p,
+li,
+div,
+span {
   font-family: -apple-system, BlinkMacSystemFont,
                "Segoe UI", Roboto, Oxygen,
                Ubuntu, Cantarell, "Helvetica Neue",
-               Arial, "Noto Sans", sans-serif;
-  font-size: 16.5px;
-  line-height: 1.75;
-  letter-spacing: 0.1px;
+               Arial, "Noto Sans", sans-serif !important;
   color: #222;
 }
 
-/* ===== 标题：优雅 serif ===== */
+/* ===== 正文 ===== */
+body {
+  font-size: 16.5px;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+}
+
+/* ===== 标题：全部改成现代无衬线 ===== */
 h1, h2, h3, h4, h5, h6,
-.post h1, .post h2, .post h3,
-.about h1, .about h2, .about h3,
-.page h1, .page h2, .page h3 {
-  font-family: "Georgia", "Times New Roman",
-               "Noto Serif CJK SC", "Source Han Serif SC",
-               serif;
-  font-weight: 600;
+.post h1, .post h2, .post h3, .post h4,
+.about h1, .about h2, .about h3, .about h4,
+.page h1, .page h2, .page h3, .page h4 {
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Helvetica Neue",
+               Arial, "Noto Sans", sans-serif !important;
+  font-weight: 700;
   line-height: 1.32;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
   margin-top: 1.9rem;
   margin-bottom: 0.6rem;
 }
@@ -35,7 +50,7 @@ h1 { font-size: 2rem; }
 h2 { font-size: 1.6rem; }
 h3 { font-size: 1.3rem; }
 
-/* ===== 正文 ===== */
+/* ===== 正文行距 ===== */
 p,
 .post p,
 .about p,
@@ -145,7 +160,7 @@ ol.bibliography li .preview img {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-/* 论文操作按钮/链接区域 */
+/* 链接区域 */
 .links,
 .bibliography .links {
   margin-top: 0.55rem;
@@ -156,7 +171,7 @@ ol.bibliography li .preview img {
   margin-right: 0.45rem;
 }
 
-/* ===== 你的名字高亮（给 bib.liquid 里的 strong 用） ===== */
+/* 自动加粗名字用 */
 .bibliography strong,
 .bibliography b {
   font-weight: 700;
@@ -179,35 +194,30 @@ ol.bibliography li .preview img {
   white-space: nowrap;
 }
 
-/* ESI Hot Paper */
 .pub-badge-hot {
   color: #6f42c1;
   background: rgba(111, 66, 193, 0.10);
   border: 1px solid rgba(111, 66, 193, 0.22);
 }
 
-/* Q1 / Q2 等分区 */
 .pub-badge-rank {
   color: #0f5132;
   background: rgba(25, 135, 84, 0.10);
   border: 1px solid rgba(25, 135, 84, 0.20);
 }
 
-/* Nature Index / Special tag */
 .pub-badge-index {
   color: #1f4e79;
   background: rgba(13, 110, 253, 0.10);
   border: 1px solid rgba(13, 110, 253, 0.18);
 }
 
-/* citation / metric */
 .pub-badge-citation {
   color: #7a4b00;
   background: rgba(255, 193, 7, 0.12);
   border: 1px solid rgba(255, 193, 7, 0.26);
 }
 
-/* 对应外部 badge 容器 */
 .badges,
 .badge-links,
 .metrics {
@@ -218,20 +228,17 @@ ol.bibliography li .preview img {
    About / News / Talks / CV
 =============================== */
 
-/* News / Talks 页面更克制一点 */
 .page ul li,
 .page ol li {
   margin-bottom: 0.35rem;
 }
 
-/* CV 页面信息密度 */
 .page h2 + p,
 .page h2 + ul,
 .page h2 + ol {
   margin-top: 0.4rem;
 }
 
-/* 学术链接区域更自然 */
 .about a,
 .post a,
 .page a {
