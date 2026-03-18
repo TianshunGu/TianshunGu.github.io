@@ -9,70 +9,70 @@ description: News and updates
 
 ## 2026
 
-- **Mar 2026**  
-  Invited to present at the GISChat Seminar Series (Episode 26: *My Platform, My Voice*), organized by Dr. Yan Zhang.  
+- **🎤 Mar 2026**  
+  Presented at the GISChat Thematic Seminar Series (Episode 26: *Host × GIS: My Platform, My Voice*) at the invitation of Dr. Yan Zhang.  
   [Post](https://mp.weixin.qq.com/s/RIPRQD_jyImL2txs8eEsyg)
 
-- **Feb 2026**  
-  A study on the attribution of the 2022 Asian compound heatwave–flooding event was published in *Journal of Geophysical Research: Atmospheres*.  
+- **📄 Feb 2026**  
+  Our study, *Attribution of the 2022 Asian Spatially Compound Heatwave-Flooding Event to Atmospheric Circulation, La Niña and Anthropogenic Warming*, was published in *Journal of Geophysical Research: Atmospheres*.  
   [Post](https://mp.weixin.qq.com/s/QU4tjlMzq9cO1PhKhuL4yw)
 
-- **Jan 2026**  
-  A study on intensified spatiotemporal clustering of extreme precipitation in urban regions was published in *Journal of Hydrology*.  
+- **📄 Jan 2026**  
+  Our study, *Steeper Spatiotemporal Distribution of Extreme Precipitation Intensity in Urban than Rural Regions*, was published in *Journal of Hydrology*.  
   [Post](https://mp.weixin.qq.com/s/qq3rpITchb5k2GEMJwSpow)
 
 ---
 
 ## 2025
 
-- **Dec 2025**  
-  Selected for the CAST Youth Talent Support Program (PhD Students), supported by the China Association for Science and Technology.
+- **🏅 Dec 2025**  
+  Selected for the 2025 CAST Youth Talent Support Program for PhD Students.
 
-- **Nov 2025**  
-  A study on urban social resilience based on interpretable spatial machine learning was recognized as  
-  <span style="color:#6f42c1; font-weight:600;">ESI Hot Paper (Top 0.1%)</span>.  
+- **📄 Nov 2025**  
+  Our paper, *Attribution Analysis of Urban Social Resilience Differences under Rainstorm Disaster Impact: Insights from Interpretable Spatial Machine Learning Framework*, was recognized as  
+  <span style="color:#6f42c1; font-weight:700;">ESI Hot Paper (Top 0.1%)</span>.  
   [Post](https://mp.weixin.qq.com/s/3rYzg5meO8hi8L0U3l2bcQ)
 
-- **Nov 2025**  
-  Delivered a presentation at the university student recognition ceremony as a recipient of the President’s Scholarship.
+- **🎤 Nov 2025**  
+  Shared my academic growth experience at the 2025 university student recognition ceremony of China University of Geosciences (Wuhan) as a representative of the President’s Scholarship recipients.
 
-- **Nov 2025**  
-  Received the Grand Prize (Top <4%) at the 36th Student Scientific Research Conference, China University of Geosciences (Wuhan).
+- **🏅 Nov 2025**  
+  Received the **Grand Prize** in the graduate category at the 36th Student Scientific Research Conference of China University of Geosciences (Wuhan).
 
-- **Oct 2025**  
-  Received the Outstanding Presenter Award (PhD category) at The Innovation Conference.
+- **🏅 Oct 2025**  
+  Received the **Outstanding Presenter Award** (PhD category) at The Innovation Conference 2025.
 
-- **Aug 2025**  
-  Presented at the 2nd National Conference on Information Geography (Session: Human Behaviour, Health Geography, and Spatial Modelling).
+- **🎤 Aug 2025**  
+  Presented at the 2nd National Conference on Information Geography, in the session on Human Behaviour, Health Geography, and Spatial Modelling.
 
-- **Jul 2025**  
-  A study on spatial heterogeneity of urban resilience was published in *Cities*.  
+- **📄 Jul 2025**  
+  Our study, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by Spatial Machine Learning Model Embedded in Density-Structure-Function Framework*, was published in *Cities*.  
   [Post](https://mp.weixin.qq.com/s/gw-WLjifWtfLep82j6caBA)
 
-- **May 2025**  
-  A study on weather impacts on electric versus fuel vehicle travel behavior was published in *Transportation Research Part D*.
+- **📄 May 2025**  
+  Our study, *Weather Effects on Highway Travel Volume: Electric vs. Fuel Vehicles*, was published in *Transportation Research Part D: Transport and Environment*.
 
 ---
 
 ## 2024
 
-- **Dec 2024**  
-  A study on urban flood risk perception was published in *Ecological Indicators*.
+- **📄 Dec 2024**  
+  Our study, *Urban Landscape Patterns and Residents’ Perceptions of Safety under Extreme City Flood Disasters*, was published in *Ecological Indicators*.
 
-- **Oct 2024**  
-  A study on trapped incidents during extreme urban flood events was published in *Cities*.  
+- **📄 Oct 2024**  
+  Our study, *Unraveling the Factors behind Self-Reported Trapped Incidents in the Extraordinary Urban Flood Disaster: A Case Study of Zhengzhou City, China*, was published in *Cities*.  
   [Post](https://mp.weixin.qq.com/s/I_hMCYvzZHyKYmLS6Vag5A)
 
-- **Aug 2024**  
-  Participated in the inaugural Resilience Research Workshop.  
+- **🎤 Aug 2024**  
+  Participated in the first academic workshop organized by the Resilience Research Club.  
   [Post](https://mp.weixin.qq.com/s/MTILAB-G5Wuv5yYIENhVrg)
 
-- **Jun 2024**  
-  Received an M.S. degree in Geography from Henan University.
+- **🎓 Jun 2024**  
+  Received my M.S. degree in Geography from Henan University.
 
-- **Jun 2024**  
-  Invited to present at the GISChat Academic Salon (Episode 8), organized by Dr. Yan Zhang.  
+- **🎤 Jun 2024**  
+  Presented at the GISChat Academic Salon (Episode 8) at the invitation of Dr. Yan Zhang.  
   [Post](https://mp.weixin.qq.com/s/yXWdgSEImEqtuUzttcEoYQ)
 
-- **Apr 2024**  
-  Presented at the Annual Meeting of the Geographical Society of China.
+- **🎤 Apr 2024**  
+  Participated in the Spring Meeting of the Geographical Society of China and the Annual Meeting on Geographical Editing and Publishing.
