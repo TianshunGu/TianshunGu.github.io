@@ -9,10 +9,15 @@ description: Selected publications and full publication list.
 
 ## Selected Publications
 
+A selection of representative publications.
+
 {% bibliography --query @*[selected=true] %}
 
 ---
 
-## Full Publications
+## All Publications
+
+Complete list of publications.  
+(*See Selected Publications above for highlighted works.*)
 
 {% bibliography --query @*[selected!=true] %}
