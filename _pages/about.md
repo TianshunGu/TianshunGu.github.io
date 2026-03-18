@@ -34,10 +34,9 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Research Interests
 
-- Hydroclimatic impacts of urbanization
-- Extreme precipitation dynamics and persistence
+- Hydroclimatic effects of urbanization
 - Urban climate resilience and flood risk
-- Data-driven and interpretable modeling in hydroclimate
+- Detection and attribution using machine learning
 
 ---
 
@@ -74,7 +73,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 {% include news.liquid limit=3 %}
 
 <p style="margin-top:0.5rem;">
-  <a href="/news/">→ View all news</a>
+  <a href="/news/">View all news →</a>
 </p>
 
 ---
@@ -84,7 +83,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 {% bibliography --query @*[homepage_selected=true] %}
 
 <p style="margin-top:0.5rem;">
-  <a href="/publications/">→ View all publications</a>
+  <a href="/publications/">View all publications →</a>
 </p>
 
 ---
