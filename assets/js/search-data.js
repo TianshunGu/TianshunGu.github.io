@@ -64,10 +64,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-invited-by-dr-yan-zhang-i-participated-in-the-gischat-seminar-series-no-26-host-gis-building-and-managing-my-own-platform-using-urban-geography-illumination-a-public-science-communication-platform-on-urban-geography-as-a-case-study-i-shared-the-journey-of-building-and-developing-this-platform-along-with-reflections-on-its-evolution-and-future-direction-full-article-wechat-in-chinese",
-          title: '🎤 Invited by Dr. Yan Zhang, I participated in the GISChat Seminar Series...',
-          description: "",
-          section: "News",},{
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
