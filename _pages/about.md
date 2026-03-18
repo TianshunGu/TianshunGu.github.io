@@ -36,10 +36,9 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Research Interests
 
-- Hydro-climatic impacts of urbanization  
-- Extreme precipitation events and persistence  
-- Urban climate resilience and flood risk  
-- Machine learning in hydroclimate  
+- Hydroclimatic effects of urbanization  
+- Urban climate resilience and sustainability  
+- Detection and attribution using machine learning   
 
 ---
 
