@@ -64,10 +64,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-study-on-the-intensification-of-spatiotemporal-clustering-of-extreme-precipitation-under-urbanization-has-been-published-in-journal-of-hydrology-jcr-q1-top-tier-this-work-provides-new-insights-into-how-urbanization-reshapes-the-organization-and-persistence-of-extreme-rainfall-events-read-more-wechat-article-in-chinese",
-          title: '📄 Our study on the intensification of spatiotemporal clustering of extreme precipitation under...',
-          description: "",
-          section: "News",},{id: "news-our-study-on-the-attribution-of-spatially-compounding-heatwave-flood-events-has-been-published-in-journal-of-geophysical-research-atmospheres-nature-index-journal-this-work-advances-the-understanding-of-compound-climate-extremes-by-disentangling-the-mechanisms-driving-the-co-occurrence-of-heatwaves-and-flooding-at-regional-scales-read-more-wechat-article-in-chinese",
+            },},{id: "news-our-study-on-the-attribution-of-spatially-compounding-heatwave-flood-events-has-been-published-in-journal-of-geophysical-research-atmospheres-nature-index-journal-this-work-advances-the-understanding-of-compound-climate-extremes-by-disentangling-the-mechanisms-driving-the-co-occurrence-of-heatwaves-and-flooding-at-regional-scales-read-more-wechat-article-in-chinese",
           title: '📄 Our study on the attribution of spatially compounding heatwave–flood events has been...',
           description: "",
           section: "News",},{id: "news-invited-by-dr-yan-zhang-i-participated-in-the-gischat-seminar-series-no-26-host-gis-building-and-managing-my-own-platform-using-urban-geography-illumination-a-public-science-communication-platform-on-urban-geography-as-a-case-study-i-shared-the-journey-of-building-and-developing-this-platform-along-with-reflections-on-its-evolution-and-future-direction-full-article-wechat-in-chinese",
