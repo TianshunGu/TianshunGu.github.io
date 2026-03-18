@@ -17,7 +17,6 @@ profile:
       </a>
     </p>
 
-selected_papers: true
 social: true
 
 announcements:
@@ -33,12 +32,22 @@ I am a PhD candidate in Hydroclimatology at China University of Geosciences (Wuh
 
 My work integrates large-scale climate datasets, spatial–temporal analysis, and machine learning techniques to better understand how urbanization reshapes precipitation processes and associated hydrological risks.
 
+---
+
 ## Research Interests
 
 - Hydro-climatic impacts of urbanization  
 - Extreme precipitation events and persistence  
 - Urban climate resilience and flood risk  
 - Machine learning in hydroclimate  
+
+---
+
+## Selected Publications
+
+{% bibliography --query @*[homepage_selected=true] %}
+
+---
 
 ## Academic Profiles
 
@@ -60,6 +69,8 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
   </a>
 </p>
 
+---
+
 ## Outreach
 
 I also curate *Urban Geography Illumination* (城市地理之光), a public science communication platform dedicated to urban geography, where I share insights and perspectives on urban science and geography.
@@ -68,20 +79,16 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 
 ## Global Visitors
 
-A snapshot of the global distribution of visitors to this website.
-
-<div style="display: flex; justify-content: center; margin: 2.2rem 0 0.8rem 0;">
-  <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer" style="width: 100%;">
+<div style="margin-top: 1.5rem;">
+  <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer" style="display:block;">
     <img
       src="https://s01.flagcounter.com/map/jlT1/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
       alt="Visitor map"
       style="
         width: 100%;
-        max-width: 100%;
         height: auto;
         border-radius: 14px;
         box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-        display: block;
       "
     >
   </a>
