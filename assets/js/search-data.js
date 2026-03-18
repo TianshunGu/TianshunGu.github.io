@@ -3,29 +3,29 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-tianshun-gu",
+    title: "Tianshun Gu",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-talks",
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "Selected publications and full publication list.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-talks",
           title: "Talks",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "Selected publications and full publication list.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum Vitae of Tianshun Gu",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -73,6 +73,27 @@ ninja.data = [{
           title: '🎤 Invited by Dr. Yan Zhang, I participated in the GISChat Seminar Series...',
           description: "",
           section: "News",},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%67%75%74%73%67%65%6F@%63%75%67.%65%64%75.%63%6E", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=_F0Jv-kAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
