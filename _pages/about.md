@@ -43,12 +43,6 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ---
 
-## Selected Publications
-
-{% bibliography --query @*[homepage_selected=true] %}
-
----
-
 ## Academic Profiles
 
 <p style="line-height: 1.9;">
@@ -74,6 +68,22 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 ## Outreach
 
 I also curate *Urban Geography Illumination* (城市地理之光), a public science communication platform dedicated to urban geography, where I share insights and perspectives on urban science and geography.
+
+---
+
+## News
+
+{% include news.liquid limit=3 %}
+
+<p style="margin-top:0.5rem;">
+  <a href="/news/">→ View all news</a>
+</p>
+
+---
+
+## Selected Publications
+
+{% bibliography --query @*[homepage_selected=true] %}
 
 ---
 
