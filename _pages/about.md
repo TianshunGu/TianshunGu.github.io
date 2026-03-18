@@ -130,7 +130,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
       transition: all 0.2s ease;
     "
   >
-    ✦ Appreciate this page
+    Appreciate this page
   </button>
   <div
     id="like-message"
