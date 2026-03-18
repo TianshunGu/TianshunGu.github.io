@@ -70,7 +70,17 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 
 ## News
 
-{% include news.liquid limit=3 %}
+- **Mar 16, 2026**  
+  🎤 Invited by Dr. Yan Zhang, I participated in the GISChat Seminar Series (Episode 26), *Host × GIS: Building and Managing My Own Platform*, where I shared the development of *Urban Geography Illumination* and some reflections on public science communication in urban geography.  
+  [👉 Full article](https://mp.weixin.qq.com/s/RIPRQD_jyImL2txs8eEsyg)
+
+- **Feb 13, 2026**  
+  📄 Our study, *Attribution of the 2022 Asian Spatially Compound Heatwave-Flooding Event to Atmospheric Circulation, La Niña and Anthropogenic Warming*, was published in *Journal of Geophysical Research: Atmospheres*.  
+  [👉 Read more](https://mp.weixin.qq.com/s/QU4tjlMzq9cO1PhKhuL4yw)
+
+- **Jan 12, 2026**  
+  📄 Our study, *Steeper Spatiotemporal Distribution of Extreme Precipitation Intensity in Urban than Rural Regions*, was published in *Journal of Hydrology*.  
+  [👉 Read more](https://mp.weixin.qq.com/s/qq3rpITchb5k2GEMJwSpow)
 
 <p style="margin-top:0.5rem;">
   <a href="/news/">View all news →</a>
