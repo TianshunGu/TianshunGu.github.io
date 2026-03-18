@@ -1,115 +1,123 @@
 /* ===============================
-   Homepage Final Polish
-   Academic + Elegant Typography
+   MIT-Style Academic Typography
+   Serif Titles + Sans Body
 =============================== */
 
-/* 全站基础字体：英文更柔和，中文更自然 */
+/* ===== 正文：干净 sans-serif ===== */
 body {
-  font-family: "Georgia", "Times New Roman",
-               "Noto Serif CJK SC", "Source Han Serif SC",
-               "Songti SC", serif;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Helvetica Neue",
+               Arial, "Noto Sans", sans-serif;
+
   font-size: 16.5px;
   line-height: 1.75;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.1px;
+  color: #222;
 }
 
-/* Profile（右侧信息区，头像下方） */
+/* ===== 标题：优雅 serif（核心 MIT 风格） ===== */
+h1, h2, h3, h4, h5, h6,
+.post h1, .post h2, .post h3,
+.about h1, .about h2, .about h3 {
+  font-family: "Georgia", "Times New Roman",
+               "Noto Serif CJK SC", "Source Han Serif SC",
+               serif;
+
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 0.2px;
+  margin-top: 1.9rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ===== 标题层级更清晰 ===== */
+h1 { font-size: 2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+/* ===== 正文（论文感但不死板） ===== */
+p,
+.post p,
+.about p,
+li {
+  line-height: 1.78;
+}
+
+/* ===== 列表更紧凑 ===== */
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+/* ===== Profile（右侧信息更精致） ===== */
 .profile p,
 .profile div,
 .profile span,
 .profile li,
 .profile .more-info {
-  font-family: "Georgia", "Times New Roman",
-               "Noto Serif CJK SC", "Source Han Serif SC",
-               "Songti SC", serif;
-  font-size: 15.5px;
-  line-height: 1.65;
+  font-size: 15.2px;
+  line-height: 1.6;
 }
 
-/* 标题优化：更像学术网页 */
-.post h1,
-.post h2,
-.post h3,
-.post h4,
-.about h1,
-.about h2,
-.about h3,
-.about h4 {
-  font-family: "Georgia", "Times New Roman", serif;
-  margin-top: 1.8rem;
-  margin-bottom: 0.65rem;
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: 0.2px;
-}
-
-/* 正文更像论文 */
-.post p,
-.about p,
-.post li,
-.about li {
-  line-height: 1.78;
-}
-
-/* 研究兴趣、profiles 这种列表更紧凑一点 */
-.about ul,
-.post ul {
-  margin-bottom: 1rem;
-}
-
-.about ul li,
-.post ul li {
-  margin-bottom: 0.25rem;
-}
-
-/* publications 间距 */
+/* ===== Publications（论文排版） ===== */
 .publications ol.bibliography li,
 ol.bibliography li {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.3rem;
   line-height: 1.65;
 }
 
-/* publication 标题、作者、期刊信息更协调 */
 .bibliography .title {
-  font-family: "Georgia", "Times New Roman",
-               "Noto Serif CJK SC", "Source Han Serif SC",
-               "Songti SC", serif;
   font-weight: 600;
 }
 
 .bibliography .author,
 .bibliography .authors,
-.bibliography .periodical,
-.bibliography .journal {
+.bibliography .journal,
+.bibliography .periodical {
   line-height: 1.6;
 }
 
-/* 社交图标 */
+/* ===== 链接（MIT 风格：克制） ===== */
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Email 紫色（你之前的风格保留） ===== */
+a[href^="mailto"] {
+  color: #6f42c1;
+}
+
+/* ===== 社交图标 ===== */
 .social a {
   margin-right: 0.55rem;
 }
 
-/* about 页 visitors 地图/图片居中 */
+/* ===== 图片居中 ===== */
 .about img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Academic Profiles 链接更自然 */
-.about a,
-.post a {
-  text-underline-offset: 2px;
-}
-
-/* 分隔线更有留白 */
+/* ===== 分隔线（更轻） ===== */
 hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #eee;
 }
 
-/* 小屏优化 */
+/* ===== 小屏优化 ===== */
 @media (max-width: 768px) {
+
   body {
     font-size: 16px;
     line-height: 1.72;
@@ -122,17 +130,11 @@ hr {
   .profile p,
   .profile div,
   .profile span,
-  .profile li,
-  .profile .more-info {
+  .profile li {
     font-size: 15px;
   }
 
-  .post h1,
-  .post h2,
-  .post h3,
-  .about h1,
-  .about h2,
-  .about h3 {
+  h1, h2, h3 {
     margin-top: 1.4rem;
   }
 }
