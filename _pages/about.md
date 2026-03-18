@@ -114,3 +114,50 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
     >
   </a>
 </div>
+
+<div style="margin-top: 1.8rem; text-align: center;">
+  <button
+    id="like-button"
+    style="
+      border: 1px solid #dddddd;
+      background: #ffffff;
+      color: #444;
+      border-radius: 999px;
+      padding: 0.45rem 1rem;
+      cursor: pointer;
+      font-size: 0.92rem;
+      line-height: 1.2;
+      transition: all 0.2s ease;
+    "
+  >
+    Appreciate this page
+  </button>
+  <div
+    id="like-message"
+    style="
+      margin-top: 0.65rem;
+      color: #6f42c1;
+      font-size: 0.92rem;
+      display: none;
+    "
+  >
+    Thank you. Wishing you smooth progress in research, papers, and funding.
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("like-button");
+    const message = document.getElementById("like-message");
+
+    if (button && message) {
+      button.addEventListener("click", function () {
+        button.style.background = "#f6f1ff";
+        button.style.borderColor = "#d7c3f3";
+        button.style.color = "#6f42c1";
+        button.innerHTML = "Appreciated";
+        message.style.display = "block";
+      });
+    }
+  });
+</script>
