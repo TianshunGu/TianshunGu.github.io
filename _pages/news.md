@@ -35,7 +35,8 @@ description: News and updates
 
 - **Nov 2025**  
   🎤 Shared my research journey at the 2025 university student recognition ceremony of China University of Geosciences (Wuhan) as a representative of the President’s Scholarship recipients.
-
+  [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/5V4W9HgmO11vJp0H_CaMIw)
+  
 - **Nov 2025**  
   🏅 Received the **Grand Prize** in the graduate category at the 36th Student Scientific Research Conference of China University of Geosciences (Wuhan).
 
@@ -51,13 +52,15 @@ description: News and updates
 
 - **May 2025**  
   📄 Our study, *Weather Effects on Highway Travel Volume: Electric vs. Fuel Vehicles*, was published in *Transportation Research Part D: Transport and Environment*.
-
+  [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/-1DYzCq8cdWE8Z-qvyizSA)
+  
 ---
 
 ## 2024
 
 - **Dec 2024**  
   📄 Our study, *Urban Landscape Patterns and Residents’ Perceptions of Safety under Extreme City Flood Disasters*, was published in *Ecological Indicators*.
+  [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/bvuEtNS0NAuZUxHe254ALQ)
 
 - **Oct 2024**  
   📄 Our study, *Unraveling the Factors behind Self-Reported Trapped Incidents in the Extraordinary Urban Flood Disaster: A Case Study of Zhengzhou City, China*, was published in *Cities*.  
