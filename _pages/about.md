@@ -19,7 +19,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 3
 
 latest_posts:
   enabled: false
@@ -31,10 +31,10 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Research Interests
 
-- Hydro-climatic impacts of urbanization
-- Extreme precipitation events and persistence
-- Urban climate resilience and flood risk
-- Machine learning in hydroclimate
+- Hydro-climatic impacts of urbanization  
+- Extreme precipitation events and persistence  
+- Urban climate resilience and flood risk  
+- Machine learning in hydroclimate  
 
 ## Academic Profiles
 
@@ -49,16 +49,23 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 
 ---
 
-## 🌐 Global Visitors
+## Global Visitors
 
 A snapshot of the global distribution of visitors to this website.
 
-<div style="display: flex; justify-content: center; margin: 1.5rem 0 0.5rem 0;">
-  <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer">
+<div style="display: flex; justify-content: center; margin: 2.2rem 0 0.8rem 0;">
+  <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer" style="width: 100%;">
     <img
-      src="https://s01.flagcounter.com/map/jlT1/size_m/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
+      src="https://s01.flagcounter.com/map/jlT1/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
       alt="Visitor map"
-      style="max-width: 720px; width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
+      style="
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 14px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        display: block;
+      "
     >
   </a>
 </div>
