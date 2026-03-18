@@ -17,7 +17,7 @@ profile:
       </a>
     </p>
 
-social: true
+social: false
 
 announcements:
   enabled: false
