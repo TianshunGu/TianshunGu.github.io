@@ -155,7 +155,7 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
         button.style.background = "#f6f1ff";
         button.style.borderColor = "#d7c3f3";
         button.style.color = "#6f42c1";
-        button.innerHTML = "✦ Appreciated";
+        button.innerHTML = "Appreciated";
         message.style.display = "block";
       });
     }
