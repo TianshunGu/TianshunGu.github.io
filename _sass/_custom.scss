@@ -1,73 +1,274 @@
 /* ===============================
-   Homepage Final Polish
+   MIT-Style Academic Typography
+   Final Custom Styles
 =============================== */
 
-/* 首页正文更柔和一些 */
+/* ===== 正文：干净 sans-serif ===== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Helvetica Neue",
+               Arial, "Noto Sans", sans-serif;
+  font-size: 16.5px;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  color: #222;
+}
+
+/* ===== 标题：优雅 serif ===== */
+h1, h2, h3, h4, h5, h6,
+.post h1, .post h2, .post h3,
+.about h1, .about h2, .about h3,
+.page h1, .page h2, .page h3 {
+  font-family: "Georgia", "Times New Roman",
+               "Noto Serif CJK SC", "Source Han Serif SC",
+               serif;
+  font-weight: 600;
+  line-height: 1.32;
+  letter-spacing: 0.2px;
+  margin-top: 1.9rem;
+  margin-bottom: 0.6rem;
+}
+
+/* ===== 标题层级 ===== */
+h1 { font-size: 2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+/* ===== 正文 ===== */
+p,
+.post p,
 .about p,
-.about li {
-  color: #2b2b2b;
+.page p,
+li {
+  line-height: 1.78;
 }
 
-/* 首页主标题更稳重 */
-.about h1 {
-  letter-spacing: -0.02em;
-  margin-bottom: 0.45rem;
+/* ===== 列表 ===== */
+ul, ol {
+  margin-bottom: 1rem;
 }
 
-/* 二级标题更清晰 */
-.about h2 {
-  margin-top: 2.2rem;
-  margin-bottom: 0.8rem;
+li {
+  margin-bottom: 0.25rem;
 }
 
-/* 首页简介段落宽度更舒服 */
-.about .post,
-.about .page,
-.about .page-content,
-.about .post-content {
-  max-width: 100%;
+/* ===== Profile 区域 ===== */
+.profile p,
+.profile div,
+.profile span,
+.profile li,
+.profile .more-info {
+  font-size: 15.2px;
+  line-height: 1.6;
 }
 
-/* profile 区域更整洁 */
-.profile .more-info p {
-  margin-bottom: 0.2rem;
+/* ===== 链接 ===== */
+a {
+  color: #1a0dab;
+  text-decoration: none;
 }
 
-/* 首页链接更克制 */
-.about a {
+a:hover {
+  text-decoration: underline;
+}
+
+a[href^="mailto"] {
+  color: #6f42c1;
+}
+
+/* ===== 社交图标 ===== */
+.social a {
+  margin-right: 0.55rem;
+}
+
+/* ===== 图片 ===== */
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== 分隔线 ===== */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+/* ===============================
+   Publications
+=============================== */
+
+/* bibliography 整体 */
+.publications ol.bibliography,
+ol.bibliography {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+/* 每篇论文卡片 */
+.publications ol.bibliography li,
+ol.bibliography li {
+  list-style: none;
+  margin-bottom: 1.35rem;
+  padding: 1.2rem 1.25rem;
+  border: 1px solid #ececec;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  line-height: 1.65;
+}
+
+/* 标题 */
+.bibliography .title {
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 0.25rem;
+}
+
+/* 作者与期刊信息 */
+.bibliography .author,
+.bibliography .authors,
+.bibliography .journal,
+.bibliography .periodical {
+  line-height: 1.6;
+}
+
+/* 预览图区域 */
+ol.bibliography li .preview {
+  margin-right: 1rem;
+}
+
+ol.bibliography li .preview img {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* 论文操作按钮/链接区域 */
+.links,
+.bibliography .links {
+  margin-top: 0.55rem;
+}
+
+.links a,
+.bibliography .links a {
+  margin-right: 0.45rem;
+}
+
+/* ===== 你的名字高亮（给 bib.liquid 里的 strong 用） ===== */
+.bibliography strong,
+.bibliography b {
+  font-weight: 700;
+}
+
+/* ===============================
+   Publication Badges
+=============================== */
+
+.pub-badge {
+  display: inline-block;
+  margin-right: 0.42rem;
+  margin-top: 0.4rem;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.2;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* ESI Hot Paper */
+.pub-badge-hot {
+  color: #6f42c1;
+  background: rgba(111, 66, 193, 0.10);
+  border: 1px solid rgba(111, 66, 193, 0.22);
+}
+
+/* Q1 / Q2 等分区 */
+.pub-badge-rank {
+  color: #0f5132;
+  background: rgba(25, 135, 84, 0.10);
+  border: 1px solid rgba(25, 135, 84, 0.20);
+}
+
+/* Nature Index / Special tag */
+.pub-badge-index {
+  color: #1f4e79;
+  background: rgba(13, 110, 253, 0.10);
+  border: 1px solid rgba(13, 110, 253, 0.18);
+}
+
+/* citation / metric */
+.pub-badge-citation {
+  color: #7a4b00;
+  background: rgba(255, 193, 7, 0.12);
+  border: 1px solid rgba(255, 193, 7, 0.26);
+}
+
+/* 对应外部 badge 容器 */
+.badges,
+.badge-links,
+.metrics {
+  margin-top: 0.45rem;
+}
+
+/* ===============================
+   About / News / Talks / CV
+=============================== */
+
+/* News / Talks 页面更克制一点 */
+.page ul li,
+.page ol li {
+  margin-bottom: 0.35rem;
+}
+
+/* CV 页面信息密度 */
+.page h2 + p,
+.page h2 + ul,
+.page h2 + ol {
+  margin-top: 0.4rem;
+}
+
+/* 学术链接区域更自然 */
+.about a,
+.post a,
+.page a {
   text-underline-offset: 2px;
 }
 
-/* News 和 Publications 的引导链接 */
-.about p a[href="/news/"],
-.about p a[href="/publications/"] {
-  font-weight: 500;
-}
-
-/* Academic Profiles 图标和文字更协调 */
-.about i.ai,
-.about i.fab,
-.about i.fas {
-  width: 1.1rem;
-  text-align: center;
-}
-
-/* visitors 地图与正文更协调 */
-.about img {
-  margin-top: 0.2rem;
-}
-
-/* 小屏进一步优化 */
+/* ===============================
+   Responsive
+=============================== */
 @media (max-width: 768px) {
-  .about h1 {
-    margin-bottom: 0.35rem;
+  body {
+    font-size: 16px;
+    line-height: 1.72;
   }
 
-  .about h2 {
-    margin-top: 1.8rem;
+  .profile {
+    margin-bottom: 1rem;
   }
 
-  .profile .more-info {
-    margin-top: 0.6rem;
+  .profile p,
+  .profile div,
+  .profile span,
+  .profile li {
+    font-size: 15px;
+  }
+
+  h1, h2, h3 {
+    margin-top: 1.4rem;
+  }
+
+  .publications ol.bibliography li,
+  ol.bibliography li {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .pub-badge {
+    font-size: 0.74rem;
   }
 }
