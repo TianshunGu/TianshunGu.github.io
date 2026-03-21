@@ -67,7 +67,8 @@ Sep 2021 – Jun 2024
 - **Sustainable Cities and Society** (SCI, JCR Q1) — 2 manuscripts  
 - **Environmental Impact Assessment Review** (SSCI, JCR Q1) — 1 manuscript  
 - **Humanities & Social Sciences Communications** (SSCI, JCR Q1) — 1 manuscript  
-- **Scientific Reports** (SCI, JCR Q1) — 2 manuscripts  
+- **Scientific Reports** (SCI, JCR Q1) — 2 manuscripts
+- **Geocarto International** (SCI, JCR Q2) — 1 manuscripts  
 - **Theoretical and Applied Climatology** (SCI, JCR Q3) — 2 manuscripts  
 - **Frontiers in Earth Science** (SCI, JCR Q3) — 1 manuscript  
 
