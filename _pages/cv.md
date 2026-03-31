@@ -63,14 +63,15 @@ Sep 2021 – Jun 2024
 
 ## Peer Review Service
 
-- **npj Urban Sustainability** (SCI, JCR Q1) — 1 manuscript  
-- **Sustainable Cities and Society** (SCI, JCR Q1) — 2 manuscripts  
-- **Environmental Impact Assessment Review** (SSCI, JCR Q1) — 1 manuscript  
-- **Humanities & Social Sciences Communications** (SSCI, JCR Q1) — 1 manuscript  
-- **Scientific Reports** (SCI, JCR Q1) — 2 manuscripts
-- **Geocarto International** (SCI, JCR Q2) — 1 manuscripts  
-- **Theoretical and Applied Climatology** (SCI, JCR Q3) — 2 manuscripts  
-- **Frontiers in Earth Science** (SCI, JCR Q3) — 1 manuscript  
+- **npj Urban Sustainability** (SCI, JCR Q1) 
+- **Sustainable Cities and Society** (SCI, JCR Q1) 
+- **Environmental Impact Assessment Review** (SSCI, JCR Q1) 
+- **Humanities & Social Sciences Communications** (SSCI, JCR Q1)
+- **Scientific Reports** (SCI, JCR Q1) 
+- **Geocarto International** (SCI, JCR Q2) 
+- **Theoretical and Applied Climatology** (SCI, JCR Q3) 
+- **Frontiers in Earth Science** (SCI, JCR Q3)
+- **BMC Public Health** (SCIE, JCR Q1)
 
 ---
 
