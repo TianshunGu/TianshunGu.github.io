@@ -65,13 +65,17 @@ Sep 2021 – Jun 2024
 
 - **npj Urban Sustainability** (SCI, JCR Q1) 
 - **Sustainable Cities and Society** (SCI, JCR Q1) 
-- **Environmental Impact Assessment Review** (SSCI, JCR Q1) 
+- **Environmental Impact Assessment Review** (SSCI, JCR Q1)
+- **GIScience & Remote Sensing** (SCI, JCR Q1)
+- **International Journal of Disaster Risk Reduction** (SCI, JCR Q1) 
 - **Humanities & Social Sciences Communications** (SSCI, JCR Q1)
 - **Scientific Reports** (SCI, JCR Q1) 
-- **Geocarto International** (SCI, JCR Q2) 
+- **Geocarto International** (SCI, JCR Q2)
+- **Natural Hazards Research** (SCI, JCR Q2) 
 - **Theoretical and Applied Climatology** (SCI, JCR Q3) 
 - **Frontiers in Earth Science** (SCI, JCR Q3)
 - **BMC Public Health** (SCIE, JCR Q1)
+- **Environmental and Sustainability Indicators**
 
 ---
 
