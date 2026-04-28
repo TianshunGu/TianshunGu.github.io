@@ -8,6 +8,11 @@ description: News and updates
 ---
 
 ## 2026
+- **Apr 26, 2026**  
+  🎤 I participated in the 2026 Spring Annual Conference of the Geographical Society of China and the Annual Conference on Geographical Editing and Publishing.
+
+- **Apr 19, 2026**  
+  🎤 I participated in the 3rd Forum on Changes and Regulation of Hydrological Processes. 
 
 - **Mar 16, 2026**  
   🎤 Invited by Dr. Yan Zhang, I participated in the GISChat Seminar Series (Episode 26), *Host × GIS: Building and Managing My Own Platform*, where I shared the development of *Urban Geography Illumination* and some reflections on public science communication in urban geography.  
