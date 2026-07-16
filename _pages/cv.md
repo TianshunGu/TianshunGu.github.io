@@ -53,7 +53,8 @@ Sep 2021 – Jun 2024
 ---
 
 ## Research Projects & Awards
-
+- 2026 Doctoral Student Top-Tier Innovative Talent Development Program, China University of Geosciences (Wuhan) — *Principal Investigator*  
+- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — *Principal Investigator*  
 - **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — *Principal Investigator*  
 - **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-0833), Kaifeng — *First Contributor*  
 - **Third Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2025-1923), Kaifeng — *First Contributor*  
@@ -66,10 +67,12 @@ Sep 2021 – Jun 2024
 - **npj Urban Sustainability** (SCI, JCR Q1) 
 - **Sustainable Cities and Society** (SCI, JCR Q1) 
 - **Environmental Impact Assessment Review** (SSCI, JCR Q1)
+- **Habitat International** (SSCI, JCR Q1)
 - **GIScience & Remote Sensing** (SCI, JCR Q1)
 - **International Journal of Disaster Risk Reduction** (SCI, JCR Q1) 
 - **Humanities & Social Sciences Communications** (SSCI, JCR Q1)
-- **Scientific Reports** (SCI, JCR Q1) 
+- **Scientific Reports** (SCI, JCR Q1)
+- **Environmental Sciences Europe** (SCI, JCR Q1)
 - **Geocarto International** (SCI, JCR Q2)
 - **Natural Hazards Research** (SCI, JCR Q2) 
 - **Theoretical and Applied Climatology** (SCI, JCR Q3) 
