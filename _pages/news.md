@@ -8,6 +8,9 @@ description: News and updates
 ---
 
 ## 2026
+- **Jul 5, 2026**  
+  🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents).
+  
 - **Apr 26, 2026**  
   🎤 I participated in the 2026 Spring Annual Conference of the Geographical Society of China and the Annual Conference on Geographical Editing and Publishing.
 
