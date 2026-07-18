@@ -8,7 +8,7 @@ description: News and updates
 ---
 
 ## 2026
-- **Mar 16, 2026**  
+- **Jul 18, 2026**  
   🎤 Invited by Dr. Yin Dou, I participated in the City+Talk Series (Episode 47), The Spatiotemporal Distribution of Rainstorm Intensity Is Steeper in Urban Areas Than in Rural Areas. I presented our recent research on how urbanization reshapes extreme rainfall patterns and discussed its implications for urban flood risk, early warning, and emergency response.  
   [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
 
