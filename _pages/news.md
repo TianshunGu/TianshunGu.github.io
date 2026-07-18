@@ -9,8 +9,8 @@ description: News and updates
 
 ## 2026
 - **Jul 13, 2026**  
-  📄 Our paper, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework*, published in *Cities*, was recognized as both an 
-  <span style="color:#6f42c1; font-weight:700;">ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
+  📄 Our paper, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework*, published in *Cities*, was recognized as both  
+  <span style="color:#6f42c1; font-weight:700;">an ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/GDqKBbE4HcLybycrPvNM2g)
   
 - **Jul 5, 2026**  
