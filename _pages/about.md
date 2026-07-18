@@ -70,14 +70,17 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
 
 ## News
 
-- **Jul 5, 2026**  
-  🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents).
-  
-- **Apr 26, 2026**  
-  🎤 I participated in the 2026 Spring Annual Conference of the Geographical Society of China and the Annual Conference on Geographical Editing and Publishing.
+- **Jul 18, 2026**  
+  🎤 Invited by Dr. Yin Dou, I participated in the City+Talk Series (Episode 47), The Spatiotemporal Distribution of Rainstorm Intensity Is Steeper in Urban Areas Than in Rural Areas. I presented our recent research on how urbanization reshapes extreme rainfall patterns and discussed its implications for urban flood risk, early warning, and emergency response.  
+  [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
 
-- **Apr 19, 2026**  
-  🎤 I participated in the 3rd Forum on Changes and Regulation of Hydrological Processes. 
+- **Jul 13, 2026**  
+  📄 Our paper, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework*, published in *Cities*, was recognized as both  
+  <span style="color:#6f42c1; font-weight:700;">an ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
+  [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/GDqKBbE4HcLybycrPvNM2g)
+  
+- **Jul 5, 2026**  
+  🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents). 
 
 <p style="margin-top:0.5rem;">
   <a href="/news/">View all news →</a>
