@@ -8,6 +8,10 @@ description: News and updates
 ---
 
 ## 2026
+- **Mar 16, 2026**  
+  🎤 Invited by Dr. Yin Dou, I participated in the City+Talk Series (Episode 47), The Spatiotemporal Distribution of Rainstorm Intensity Is Steeper in Urban Areas Than in Rural Areas. I presented our recent research on how urbanization reshapes extreme rainfall patterns and discussed its implications for urban flood risk, early warning, and emergency response.  
+  [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
+
 - **Jul 13, 2026**  
   📄 Our paper, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework*, published in *Cities*, was recognized as both  
   <span style="color:#6f42c1; font-weight:700;">an ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
