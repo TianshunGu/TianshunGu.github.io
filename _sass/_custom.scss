@@ -20,14 +20,7 @@ p,
 ul,
 ol,
 li {
-  font-family:
-    "Segoe UI Variable Text",
-    "Segoe UI",
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans SC",
-    "Microsoft YaHei",
-    sans-serif !important;
+  font-family: "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
 }
 
 /* 正文字号与行距 */
@@ -57,14 +50,7 @@ h6,
 .post-title,
 .navbar-brand,
 .bibliography .title {
-  font-family:
-    "Segoe UI Variable Display",
-    "Segoe UI",
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans SC",
-    "Microsoft YaHei",
-    sans-serif !important;
+  font-family: "Segoe UI Variable Display", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
 
   font-weight: 650 !important;
   line-height: 1.3 !important;
@@ -90,13 +76,7 @@ h3 {
 .profile span,
 .profile li,
 .profile .more-info {
-  font-family:
-    "Segoe UI",
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans SC",
-    "Microsoft YaHei",
-    sans-serif !important;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
 
   font-size: 15.5px !important;
   line-height: 1.55 !important;
@@ -119,8 +99,7 @@ hr {
   position: relative;
   margin: 2rem 0 !important;
   border: 0 !important;
-  border-top: 1px solid
-    var(--global-divider-color, rgba(128, 128, 128, 0.22)) !important;
+  border-top: 1px solid var(--global-divider-color, rgba(128, 128, 128, 0.22)) !important;
 }
 
 /* 链接默认不显示下划线 */
