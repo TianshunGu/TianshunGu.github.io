@@ -2,6 +2,8 @@
 layout: page
 title: Publications
 permalink: /publications/
+lang: en
+translation_url: /zh/publications/
 nav: true
 nav_order: 2
 description: Selected publications and full publication list.

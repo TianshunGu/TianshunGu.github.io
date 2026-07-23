@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /news/
+lang: en
+translation_url: /zh/news/
 title: News
 nav: true
 nav_order: 3

@@ -479,3 +479,97 @@ html[data-theme="light"] body > .container.mt-5::after {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* =============================================================================
+   Bilingual navigation
+   ============================================================================= */
+
+.language-switch-item {
+  display: flex;
+  align-items: center;
+  margin: 0 0.28rem;
+}
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  min-height: 30px;
+  padding: 0.2rem 0.58rem;
+  border: 1px solid rgba(85, 217, 232, 0.3);
+  border-radius: 999px;
+  background: rgba(85, 217, 232, 0.06);
+  color: var(--global-text-color-light);
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: inset 0 0 0 1px rgba(99, 168, 255, 0.02);
+  transition:
+    border-color 180ms ease,
+    background-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.language-switch:hover,
+.language-switch:focus-visible {
+  border-color: rgba(85, 217, 232, 0.68);
+  background: rgba(85, 217, 232, 0.12);
+  color: var(--global-hover-color);
+  box-shadow: 0 0 18px rgba(85, 217, 232, 0.12);
+  transform: translateY(-1px);
+}
+
+.language-switch__option {
+  opacity: 0.56;
+}
+
+.language-switch__option.is-current {
+  color: var(--urban-cyan);
+  opacity: 1;
+}
+
+.language-switch__divider {
+  width: 1px;
+  height: 12px;
+  background: rgba(145, 165, 178, 0.42);
+}
+
+#like-button {
+  border: 1px solid rgba(85, 217, 232, 0.3);
+  border-radius: 999px;
+  background: rgba(10, 23, 33, 0.78);
+  color: var(--global-text-color);
+  padding: 0.48rem 1.05rem;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 180ms ease;
+}
+
+#like-button:hover,
+#like-button.is-appreciated {
+  border-color: rgba(85, 217, 232, 0.72);
+  background: rgba(85, 217, 232, 0.12);
+  color: var(--urban-cyan);
+  box-shadow: 0 0 18px rgba(85, 217, 232, 0.12);
+}
+
+#like-message {
+  color: var(--urban-mint);
+}
+
+@media (max-width: 767.98px) {
+  .language-switch-item {
+    justify-content: flex-end;
+    margin: 0.38rem 0;
+  }
+
+  .language-switch {
+    min-height: 32px;
+    padding-inline: 0.72rem;
+  }
+}

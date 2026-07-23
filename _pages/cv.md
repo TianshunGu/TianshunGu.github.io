@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /cv/
+lang: en
+translation_url: /zh/cv/
 title: CV
 nav: true
 nav_order: 5
