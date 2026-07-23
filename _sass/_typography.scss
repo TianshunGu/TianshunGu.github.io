@@ -1,15 +1,14 @@
 /*******************************************************************************
- * Typography styles: Headings, text, links, tables, blockquotes
+ * Typography styles: headings, text, links, tables, blockquotes
  ******************************************************************************/
 
 @use "variables" as v;
 
-/* ------------------------------
- * Elegant mixed Chinese-English serif stack
- * English: Times New Roman
- * Chinese: Noto/Source Han/Songti fallbacks
- * ------------------------------ */
-$font-serif-mixed: "Times New Roman", "Times", "Noto Serif", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+/* A modern academic stack with reliable Chinese and Latin rendering. */
+$font-ui:
+  -apple-system, BlinkMacSystemFont, "Segoe UI Variable Text", "Segoe UI", Roboto, "Noto Sans SC", "Microsoft YaHei", "Helvetica Neue", Arial,
+  sans-serif;
+$font-display: "Segoe UI Variable Display", "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
 
 p,
 h1,
@@ -24,32 +23,27 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: $font-serif-mixed;
+  font-family: $font-ui;
 }
 
-/* Make body text slightly more elegant and readable */
 p,
-li,
-div,
-span {
-  line-height: 1.75;
+li {
   font-size: 1rem;
+  line-height: 1.78;
 }
 
-/* Headings: academic, clean, slightly tighter */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: $font-serif-mixed;
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: 0.01em;
+  font-family: $font-display;
+  font-weight: 650;
+  line-height: 1.3;
+  letter-spacing: -0.012em;
 }
 
-/* Optional: improve italics rendering */
 em {
   font-style: italic;
 }
@@ -59,7 +53,7 @@ hr {
 }
 
 table {
-  font-family: $font-serif-mixed;
+  font-family: $font-ui;
 
   td,
   th {
@@ -68,16 +62,20 @@ table {
   }
 
   th {
-    font-weight: bold;
+    font-weight: 650;
   }
 }
 
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.22em;
+  text-decoration-skip-ink: auto;
 
-  &:hover {
-    color: var(--global-theme-color);
+  &:hover,
+  &:focus-visible {
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -95,19 +93,18 @@ table.table a {
 }
 
 blockquote {
-  background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  background: var(--global-card-bg-color);
+  border-left: 4px solid var(--global-theme-color);
   margin: 1.5em 0;
-  padding: 1em;
-  font-size: 1.1rem;
-  font-family: $font-serif-mixed;
+  padding: 1em 1.15em;
+  font-family: $font-ui;
+  font-size: 1.04rem;
   line-height: 1.75;
 
   p {
     margin-bottom: 0;
   }
 
-  /* Tips, warnings, and dangers blockquotes */
   &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
@@ -175,15 +172,14 @@ blockquote {
   }
 }
 
-/* Profile section under your photo */
 .profile {
-  font-family: $font-serif-mixed;
+  font-family: $font-ui;
 
   p,
   div,
   span,
   li {
-    font-family: $font-serif-mixed;
+    font-family: $font-ui;
     line-height: 1.65;
   }
 }

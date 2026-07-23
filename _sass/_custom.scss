@@ -1,37 +1,146 @@
-/* ===============================
-   Final typography override
-   Keep this block at the very end
-================================ */
+/* =============================================================================
+   Urban Hydroclimate Academic Theme
+   Default-dark, modern sans-serif typography, subtle satellite/city motion
+============================================================================= */
 
-/* 全站使用稳定的现代无衬线字体 */
+:root {
+  --academic-font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI Variable Text", "Segoe UI", Roboto, "Noto Sans SC", "Microsoft YaHei", "Helvetica Neue", Arial,
+    sans-serif;
+  --academic-font-display: "Segoe UI Variable Display", "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --urban-cyan: #55d9e8;
+  --urban-blue: #63a8ff;
+  --urban-mint: #78e6c8;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #050b11;
+  --global-code-bg-color: #0b1620;
+  --global-text-color: #dce8ef;
+  --global-text-color-light: #91a5b2;
+  --global-theme-color: var(--urban-cyan);
+  --global-hover-color: #a4f3fa;
+  --global-hover-text-color: #031014;
+  --global-divider-color: rgba(142, 192, 211, 0.2);
+  --global-card-bg-color: rgba(10, 23, 33, 0.78);
+  --global-footer-bg-color: #03080c;
+  --global-footer-text-color: #91a5b2;
+  --global-footer-link-color: #dce8ef;
+  color-scheme: dark;
+}
+
 html,
+body {
+  min-height: 100%;
+}
+
+html {
+  background: #050b11;
+  scroll-behavior: smooth;
+}
+
 body,
 .navbar,
 .navbar-brand,
+.nav-link,
+.dropdown-item,
+button,
+input,
+textarea,
+select,
+table,
+.profile,
 .post,
 .page,
 .about,
-.profile,
 .publications,
-.bibliography,
-.news,
-table,
-p,
-ul,
-ol,
-li {
-  font-family: "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
+.bibliography {
+  font-family: var(--academic-font-sans) !important;
 }
 
-/* 正文字号与行距 */
 body {
-  font-size: 17px !important;
-  line-height: 1.7 !important;
-  letter-spacing: 0 !important;
-  color: var(--global-text-color, #252525);
+  position: relative;
+  isolation: isolate;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.76;
+  letter-spacing: 0.004em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* 标题也使用无衬线字体，彻底去除 Times New Roman */
+body::before,
+body::after {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: "";
+}
+
+html[data-theme="dark"] body::before {
+  background:
+    radial-gradient(circle at 79% 19%, rgba(72, 209, 226, 0.17) 0, rgba(29, 117, 150, 0.08) 14rem, transparent 31rem),
+    radial-gradient(ellipse at 16% 78%, rgba(43, 118, 189, 0.12) 0, transparent 36rem), linear-gradient(150deg, #020508 0%, #06111a 48%, #041017 100%);
+}
+
+html[data-theme="dark"] body::after {
+  opacity: 0.34;
+  background-image:
+    linear-gradient(rgba(93, 194, 215, 0.085) 1px, transparent 1px), linear-gradient(90deg, rgba(93, 194, 215, 0.085) 1px, transparent 1px),
+    radial-gradient(circle at 79% 19%, transparent 0 8.7rem, rgba(95, 222, 232, 0.2) 8.78rem 8.86rem, transparent 8.94rem),
+    radial-gradient(circle at 79% 19%, transparent 0 12.5rem, rgba(95, 222, 232, 0.12) 12.58rem 12.66rem, transparent 12.74rem),
+    linear-gradient(115deg, transparent 0 46%, rgba(109, 226, 235, 0.08) 48%, transparent 50% 100%);
+  background-position:
+    0 0,
+    0 0,
+    0 0,
+    0 0,
+    -12% 0;
+  background-size:
+    56px 56px,
+    56px 56px,
+    100% 100%,
+    100% 100%,
+    100% 100%;
+  mask-image: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.82) 68%, transparent 100%);
+  animation: urban-atmosphere-drift 32s linear infinite;
+}
+
+html[data-theme="light"] body::before {
+  background:
+    radial-gradient(circle at 80% 18%, rgba(58, 181, 203, 0.08), transparent 29rem), linear-gradient(155deg, #fff 0%, #f7fbfd 58%, #f2f8fa 100%);
+}
+
+html[data-theme="light"] body::after {
+  opacity: 0.11;
+  background-image:
+    linear-gradient(rgba(32, 125, 151, 0.16) 1px, transparent 1px), linear-gradient(90deg, rgba(32, 125, 151, 0.16) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+@keyframes urban-atmosphere-drift {
+  0% {
+    background-position:
+      0 0,
+      0 0,
+      0 0,
+      0 0,
+      -12% 0;
+  }
+  100% {
+    background-position:
+      56px 28px,
+      28px 56px,
+      0 0,
+      0 0,
+      112% 0;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -41,97 +150,221 @@ h6,
 .post h1,
 .post h2,
 .post h3,
-.page h1,
-.page h2,
-.page h3,
 .about h1,
 .about h2,
 .about h3,
-.post-title,
-.navbar-brand,
-.bibliography .title {
-  font-family: "Segoe UI Variable Display", "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
-
-  font-weight: 650 !important;
-  line-height: 1.3 !important;
-  letter-spacing: -0.01em !important;
+.page h1,
+.page h2,
+.page h3 {
+  font-family: var(--academic-font-display) !important;
+  font-weight: 650;
+  line-height: 1.28;
+  letter-spacing: -0.014em;
+  text-wrap: balance;
 }
 
-/* 标题层级 */
 h1 {
-  font-size: 2rem !important;
+  font-size: clamp(2rem, 4vw, 2.5rem);
 }
 
 h2 {
-  font-size: 1.55rem !important;
+  margin-top: 2.1rem;
+  font-size: clamp(1.52rem, 2.6vw, 1.82rem);
 }
 
 h3 {
-  font-size: 1.25rem !important;
+  margin-top: 1.5rem;
+  font-size: 1.28rem;
 }
 
-/* Profile 文字 */
+p,
+li,
+.post p,
+.about p,
+.page p {
+  line-height: 1.78;
+}
+
+p {
+  margin-bottom: 1.05rem;
+}
+
+header.fixed-top,
+.navbar {
+  border-bottom-color: rgba(125, 190, 210, 0.16) !important;
+  background: rgba(4, 11, 17, 0.78) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(130%);
+  backdrop-filter: blur(16px) saturate(130%);
+}
+
+html[data-theme="light"] header.fixed-top,
+html[data-theme="light"] .navbar {
+  background: rgba(250, 253, 254, 0.88) !important;
+}
+
+.navbar-brand {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+}
+
+.nav-link {
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--global-theme-color) !important;
+}
+
+a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.24em;
+  text-decoration-skip-ink: auto;
+  transition:
+    color 160ms ease,
+    text-decoration-color 160ms ease;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--global-hover-color);
+  text-decoration: underline;
+}
+
+a[href^="mailto:"] {
+  color: var(--urban-blue) !important;
+}
+
+hr {
+  clear: both;
+  margin: 2.15rem 0;
+  border: 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.profile {
+  margin-bottom: 1.7rem;
+}
+
+.profile img {
+  border: 1px solid rgba(133, 209, 224, 0.2);
+  border-radius: 14px !important;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.3);
+}
+
+.profile .more-info,
 .profile p,
 .profile div,
 .profile span,
-.profile li,
+.profile li {
+  font-size: 0.94rem;
+  line-height: 1.58;
+}
+
 .profile .more-info {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif !important;
-
-  font-size: 15.5px !important;
-  line-height: 1.55 !important;
+  margin-top: 0.75rem;
+  margin-bottom: 0.8rem;
 }
 
-/* Profile 图片下方信息 */
-.profile .more-info {
-  margin-top: 0.65rem !important;
-  margin-bottom: 1rem !important;
-  text-align: center;
+.social a {
+  margin-right: 0.58rem;
 }
 
-.profile .more-info p {
-  margin: 0.15rem 0 !important;
+.publications ol.bibliography li,
+ol.bibliography li,
+.card {
+  border: 1px solid rgba(132, 190, 207, 0.16);
+  border-radius: 14px;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.14);
 }
 
-/* 防止分隔线穿过 Profile 的邮箱和文字 */
-hr {
-  clear: both !important;
-  position: relative;
-  margin: 2rem 0 !important;
-  border: 0 !important;
-  border-top: 1px solid var(--global-divider-color, rgba(128, 128, 128, 0.22)) !important;
+.publications ol.bibliography,
+ol.bibliography {
+  padding-left: 0;
 }
 
-/* 链接默认不显示下划线 */
-a {
-  text-decoration: none !important;
+.publications ol.bibliography li,
+ol.bibliography li {
+  margin-bottom: 1.2rem;
+  padding: 1.1rem 1.2rem;
+  list-style: none;
 }
 
-/* 只有鼠标悬停时才显示精细下划线 */
-a:hover,
-a:focus-visible {
-  text-decoration-line: underline !important;
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 0.22em !important;
-  text-decoration-skip-ink: auto !important;
+.bibliography .title {
+  margin-bottom: 0.28rem;
+  font-weight: 650;
+  line-height: 1.45;
 }
 
-/* 手机端 */
+.bibliography .author,
+.bibliography .authors,
+.bibliography .journal,
+.bibliography .periodical {
+  line-height: 1.62;
+}
+
+.pub-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  margin-right: 0.42rem;
+  padding: 0.2rem 0.58rem;
+  border: 1px solid rgba(85, 217, 232, 0.24);
+  border-radius: 999px;
+  background: rgba(85, 217, 232, 0.09);
+  color: var(--urban-cyan);
+  font-size: 0.77rem;
+  font-weight: 650;
+  line-height: 1.2;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
 @media (max-width: 768px) {
   body {
-    font-size: 16px !important;
-    line-height: 1.68 !important;
+    font-size: 16px;
+    line-height: 1.72;
   }
 
-  h1 {
-    font-size: 1.75rem !important;
+  html[data-theme="dark"] body::after {
+    opacity: 0.22;
+    background-size:
+      44px 44px,
+      44px 44px,
+      100% 100%,
+      100% 100%,
+      100% 100%;
   }
 
-  h2 {
-    font-size: 1.42rem !important;
+  .profile {
+    margin-bottom: 1.25rem;
   }
 
-  h3 {
-    font-size: 1.2rem !important;
+  .profile .more-info,
+  .profile p,
+  .profile div,
+  .profile span,
+  .profile li {
+    font-size: 0.92rem;
+  }
+
+  .publications ol.bibliography li,
+  ol.bibliography li {
+    padding: 0.95rem;
+    border-radius: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
