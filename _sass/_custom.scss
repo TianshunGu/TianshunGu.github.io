@@ -323,6 +323,117 @@ ol.bibliography li {
   white-space: nowrap;
 }
 
+/* A restrained city silhouette strengthens the urban-climate identity. */
+body > .container.mt-5::before,
+body > .container.mt-5::after {
+  position: fixed;
+  right: 0;
+  bottom: 2.9rem;
+  left: 0;
+  z-index: -1;
+  height: clamp(11rem, 26vh, 19rem);
+  pointer-events: none;
+  content: "";
+  clip-path: polygon(
+    0 100%,
+    0 78%,
+    4% 78%,
+    4% 58%,
+    7% 58%,
+    7% 72%,
+    10% 72%,
+    10% 40%,
+    13% 40%,
+    13% 70%,
+    16% 70%,
+    16% 52%,
+    20% 52%,
+    20% 84%,
+    24% 84%,
+    24% 64%,
+    27% 64%,
+    27% 31%,
+    30% 31%,
+    30% 68%,
+    34% 68%,
+    34% 76%,
+    38% 76%,
+    38% 46%,
+    41% 46%,
+    41% 72%,
+    45% 72%,
+    45% 60%,
+    48% 60%,
+    48% 34%,
+    51% 34%,
+    51% 80%,
+    55% 80%,
+    55% 55%,
+    59% 55%,
+    59% 72%,
+    63% 72%,
+    63% 43%,
+    66% 43%,
+    66% 68%,
+    70% 68%,
+    70% 29%,
+    73% 29%,
+    73% 64%,
+    77% 64%,
+    77% 74%,
+    81% 74%,
+    81% 50%,
+    85% 50%,
+    85% 82%,
+    89% 82%,
+    89% 63%,
+    93% 63%,
+    93% 45%,
+    96% 45%,
+    96% 72%,
+    100% 72%,
+    100% 100%
+  );
+}
+
+html[data-theme="dark"] body > .container.mt-5::before {
+  background: linear-gradient(to top, rgba(2, 13, 20, 0.94), rgba(17, 76, 92, 0.34));
+  opacity: 0.68;
+}
+
+html[data-theme="dark"] body > .container.mt-5::after {
+  background-image: radial-gradient(circle, rgba(104, 221, 232, 0.72) 0 1px, transparent 1.4px);
+  background-size: 23px 19px;
+  opacity: 0.14;
+  animation: city-lights-breathe 6s ease-in-out infinite alternate;
+}
+
+html[data-theme="light"] body > .container.mt-5::before {
+  background: linear-gradient(to top, rgba(39, 105, 123, 0.25), rgba(94, 183, 198, 0.08));
+  opacity: 0.34;
+}
+
+html[data-theme="light"] body > .container.mt-5::after {
+  background-image: radial-gradient(circle, rgba(25, 126, 148, 0.55) 0 1px, transparent 1.4px);
+  background-size: 23px 19px;
+  opacity: 0.12;
+}
+
+@keyframes city-lights-breathe {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.22;
+  }
+}
+
+@media (min-width: 769px) {
+  .profile {
+    margin-top: -3rem;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 16px;
