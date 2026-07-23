@@ -18,6 +18,6 @@ A selection of representative publications.
 ## All Publications
 
 Complete list of publications.  
-(*See Selected Publications above for highlighted works.*)
+(_See Selected Publications above for highlighted works._)
 
 {% bibliography --query @*[selected!=true] %}

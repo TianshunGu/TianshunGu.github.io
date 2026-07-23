@@ -11,11 +11,11 @@ description: Conference presentations and academic talks
 
 **China Innovation Geoscience Forum**, Nanjing, China  
 Oct 2025  
-Conference presentation · **Outstanding Presenter Award (PhD Students)**  
+Conference presentation · **Outstanding Presenter Award (PhD Students)**
 
 **Annual Meeting of Chinese Information Geography**, Chengdu, China  
 Aug 2025  
-Session: Human Behaviour, Health Geography, and Spatial Modelling  
+Session: Human Behaviour, Health Geography, and Spatial Modelling
 
 ---
 
@@ -23,11 +23,11 @@ Session: Human Behaviour, Health Geography, and Spatial Modelling
 
 **China Natural Resources Science Conference**, Wuhan, China  
 Oct 2024  
-Session: Natural Resources and Urban Agglomeration Development in the Middle Reaches of the Yangtze River  
+Session: Natural Resources and Urban Agglomeration Development in the Middle Reaches of the Yangtze River
 
 **Spring Annual Meeting of the Geographical Society of China**, Wuhan, China  
 Apr 2024  
-Session: Resilient Cities and Spatial Governance toward High-Quality Development  
+Session: Resilient Cities and Spatial Governance toward High-Quality Development
 
 ---
 
@@ -35,8 +35,8 @@ Session: Resilient Cities and Spatial Governance toward High-Quality Development
 
 **Annual Meeting of Chinese Urban Geography**, Wuhan, China  
 Jun 2023  
-Session: Urban Resilience and Urban Safety  
+Session: Urban Resilience and Urban Safety
 
 **Annual Meeting of Chinese Human Geography**, Lanzhou, China  
 Aug 2023  
-Session: Challenges and Future Development of Urbanization  
+Session: Challenges and Future Development of Urbanization

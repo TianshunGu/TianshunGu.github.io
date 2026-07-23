@@ -64,7 +64,7 @@ My work integrates large-scale climate datasets, spatial–temporal analysis, an
 
 ## Outreach
 
-I also curate *Urban Geography Illumination* (城市地理之光), a public science communication initiative on urban geography, where I share ideas and reflections on urban science and geographical research.
+I also curate _Urban Geography Illumination_ (城市地理之光), a public science communication initiative on urban geography, where I share ideas and reflections on urban science and geographical research.
 
 ---
 
@@ -75,12 +75,11 @@ I also curate *Urban Geography Illumination* (城市地理之光), a public scie
   [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
 
 - **Jul 13, 2026**  
-  📄 Our paper, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework*, published in *Cities*, was recognized as both  
+  📄 Our paper, _Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework_, published in _Cities_, was recognized as both  
   <span style="color:#6f42c1; font-weight:700;">an ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/GDqKBbE4HcLybycrPvNM2g)
-  
 - **Jul 5, 2026**  
-  🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents). 
+  🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents).
 
 <p style="margin-top:0.5rem;">
   <a href="/news/">View all news →</a>

@@ -8,34 +8,33 @@ description: News and updates
 ---
 
 ## 2026
+
 - **Jul 18, 2026**  
   🎤 Invited by Dr. Yin Dou, I participated in the City+Talk Series (Episode 47), The Spatiotemporal Distribution of Rainstorm Intensity Is Steeper in Urban Areas Than in Rural Areas. I presented our recent research on how urbanization reshapes extreme rainfall patterns and discussed its implications for urban flood risk, early warning, and emergency response.  
   [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
 
 - **Jul 13, 2026**  
-  📄 Our paper, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework*, published in *Cities*, was recognized as both  
+  📄 Our paper, _Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework_, published in _Cities_, was recognized as both  
   <span style="color:#6f42c1; font-weight:700;">an ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/GDqKBbE4HcLybycrPvNM2g)
-  
 - **Jul 5, 2026**  
   🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents).
-  
 - **Apr 26, 2026**  
   🎤 I participated in the 2026 Spring Annual Conference of the Geographical Society of China and the Annual Conference on Geographical Editing and Publishing.
 
 - **Apr 19, 2026**  
-  🎤 I participated in the 3rd Forum on Changes and Regulation of Hydrological Processes. 
+  🎤 I participated in the 3rd Forum on Changes and Regulation of Hydrological Processes.
 
 - **Mar 16, 2026**  
-  🎤 Invited by Dr. Yan Zhang, I participated in the GISChat Seminar Series (Episode 26), *Host × GIS: Building and Managing My Own Platform*, where I shared the development of *Urban Geography Illumination* and some reflections on public science communication in urban geography.  
+  🎤 Invited by Dr. Yan Zhang, I participated in the GISChat Seminar Series (Episode 26), _Host × GIS: Building and Managing My Own Platform_, where I shared the development of _Urban Geography Illumination_ and some reflections on public science communication in urban geography.  
   [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/RIPRQD_jyImL2txs8eEsyg)
 
 - **Feb 13, 2026**  
-  📄 Our study, *Attribution of the 2022 Asian Spatially Compound Heatwave-Flooding Event to Atmospheric Circulation, La Niña and Anthropogenic Warming*, was published in *Journal of Geophysical Research: Atmospheres*.  
+  📄 Our study, _Attribution of the 2022 Asian Spatially Compound Heatwave-Flooding Event to Atmospheric Circulation, La Niña and Anthropogenic Warming_, was published in _Journal of Geophysical Research: Atmospheres_.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/QU4tjlMzq9cO1PhKhuL4yw)
 
 - **Jan 12, 2026**  
-  📄 Our study, *Steeper Spatiotemporal Distribution of Extreme Precipitation Intensity in Urban than Rural Regions*, was published in *Journal of Hydrology*.  
+  📄 Our study, _Steeper Spatiotemporal Distribution of Extreme Precipitation Intensity in Urban than Rural Regions_, was published in _Journal of Hydrology_.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/qq3rpITchb5k2GEMJwSpow)
 
 ---
@@ -46,7 +45,7 @@ description: News and updates
   🏅 Selected for the **Youth Talent Support Program for Doctoral Students** of the China Association for Science and Technology (CAST), 2025.
 
 - **Nov 15, 2025**  
-  📄 Our paper, *Attribution Analysis of Urban Social Resilience Differences under Rainstorm Disaster Impact: Insights from Interpretable Spatial Machine Learning Framework*, published in *Sustainable Cities and Society*, was recognized as  
+  📄 Our paper, _Attribution Analysis of Urban Social Resilience Differences under Rainstorm Disaster Impact: Insights from Interpretable Spatial Machine Learning Framework_, published in _Sustainable Cities and Society_, was recognized as  
   <span style="color:#6f42c1; font-weight:700;">ESI Hot Paper (Top 0.1%)</span>.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/3rYzg5meO8hi8L0U3l2bcQ)
 
@@ -64,11 +63,11 @@ description: News and updates
   🎤 Presented at the 2nd National Conference on Information Geography, in the session on Human Behaviour, Health Geography, and Spatial Modelling.
 
 - **Jul 2025**  
-  📄 Our study, *Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by Spatial Machine Learning Model Embedded in Density-Structure-Function Framework*, was published in *Cities*.  
+  📄 Our study, _Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by Spatial Machine Learning Model Embedded in Density-Structure-Function Framework_, was published in _Cities_.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/gw-WLjifWtfLep82j6caBA)
 
 - **May 2025**  
-  📄 Our study, *Weather Effects on Highway Travel Volume: Electric vs. Fuel Vehicles*, was published in *Transportation Research Part D: Transport and Environment*.  
+  📄 Our study, _Weather Effects on Highway Travel Volume: Electric vs. Fuel Vehicles_, was published in _Transportation Research Part D: Transport and Environment_.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/-1DYzCq8cdWE8Z-qvyizSA)
 
 ---
@@ -76,11 +75,11 @@ description: News and updates
 ## 2024
 
 - **Dec 2024**  
-  📄 Our study, *Urban Landscape Patterns and Residents’ Perceptions of Safety under Extreme City Flood Disasters*, was published in *Ecological Indicators*.  
+  📄 Our study, _Urban Landscape Patterns and Residents’ Perceptions of Safety under Extreme City Flood Disasters_, was published in _Ecological Indicators_.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/bvuEtNS0NAuZUxHe254ALQ)
 
 - **Oct 2024**  
-  📄 Our study, *Unraveling the Factors behind Self-Reported Trapped Incidents in the Extraordinary Urban Flood Disaster: A Case Study of Zhengzhou City, China*, was published in *Cities*.  
+  📄 Our study, _Unraveling the Factors behind Self-Reported Trapped Incidents in the Extraordinary Urban Flood Disaster: A Case Study of Zhengzhou City, China_, was published in _Cities_.  
   [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/I_hMCYvzZHyKYmLS6Vag5A)
 
 - **Aug 2024**  

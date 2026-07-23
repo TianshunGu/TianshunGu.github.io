@@ -19,11 +19,11 @@ Wuhan, China · 430074
 
 **Ph.D. in Hydroclimatology**  
 China University of Geosciences, Wuhan, China  
-Sep 2024 – Present  
+Sep 2024 – Present
 
 **M.S. in Geography**  
 Henan University, Zhengzhou, China  
-Sep 2021 – Jun 2024  
+Sep 2021 – Jun 2024
 
 ---
 
@@ -31,51 +31,52 @@ Sep 2021 – Jun 2024
 
 ### National & Provincial
 
-- **CAST Youth Talent Support Program (PhD Students)**, 2025  
-- **Henan Province Outstanding Graduate** *(Top 1%)*, 2024  
-- **Postgraduate Academic Scholarship** *(×3)*, 2024  
-- **China National Scholarship** *(Top 1%)*, 2023  
-- **Hebei Province Outstanding Undergraduate Thesis**, 2021  
-- **Hebei Province Outstanding Graduate** *(Top 1%)*, 2021  
-- **Outstanding Student Collective (Class Secretary)**, 2021  
-- **China National Encouragement Scholarship** *(Top 1%)*, 2019  
+- **CAST Youth Talent Support Program (PhD Students)**, 2025
+- **Henan Province Outstanding Graduate** _(Top 1%)_, 2024
+- **Postgraduate Academic Scholarship** _(×3)_, 2024
+- **China National Scholarship** _(Top 1%)_, 2023
+- **Hebei Province Outstanding Undergraduate Thesis**, 2021
+- **Hebei Province Outstanding Graduate** _(Top 1%)_, 2021
+- **Outstanding Student Collective (Class Secretary)**, 2021
+- **China National Encouragement Scholarship** _(Top 1%)_, 2019
 
 ### University
 
-- **University President’s Scholarship** *(Top 3%)*, China University of Geosciences, 2025  
-- **Special Prize for Scientific Report Conference** *(Top 3%)*, China University of Geosciences, 2025  
-- **Hou Jingru Scholarship** *(Top 1%)*, Henan University, 2024  
-- **Mixue Bingcheng Scholarship** *(Top 1%)*, Henan University, 2024  
-- **First Prize Scholarship** *(×5, Top 3%)*  
-- **Outstanding Postgraduate Student** *(×3, Top 3%)*  
-- **Outstanding Graduate** *(×2, Top 5%)*  
+- **University President’s Scholarship** _(Top 3%)_, China University of Geosciences, 2025
+- **Special Prize for Scientific Report Conference** _(Top 3%)_, China University of Geosciences, 2025
+- **Hou Jingru Scholarship** _(Top 1%)_, Henan University, 2024
+- **Mixue Bingcheng Scholarship** _(Top 1%)_, Henan University, 2024
+- **First Prize Scholarship** _(×5, Top 3%)_
+- **Outstanding Postgraduate Student** _(×3, Top 3%)_
+- **Outstanding Graduate** _(×2, Top 5%)_
 
 ---
 
 ## Research Projects & Awards
-- 2026 Doctoral Student Top-Tier Innovative Talent Development Program, China University of Geosciences (Wuhan) — *Principal Investigator*  
-- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — *Principal Investigator*  
-- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — *Principal Investigator*  
-- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-0833), Kaifeng — *First Contributor*  
-- **Third Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2025-1923), Kaifeng — *First Contributor*  
-- **Second Prize**, Henan Provincial Development Research Award — *Fifth Contributor*  
+
+- 2026 Doctoral Student Top-Tier Innovative Talent Development Program, China University of Geosciences (Wuhan) — _Principal Investigator_
+- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — _Principal Investigator_
+- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — _Principal Investigator_
+- **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-0833), Kaifeng — _First Contributor_
+- **Third Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2025-1923), Kaifeng — _First Contributor_
+- **Second Prize**, Henan Provincial Development Research Award — _Fifth Contributor_
 
 ---
 
 ## Peer Review Service
 
-- **npj Urban Sustainability** (SCI, JCR Q1) 
-- **Sustainable Cities and Society** (SCI, JCR Q1) 
+- **npj Urban Sustainability** (SCI, JCR Q1)
+- **Sustainable Cities and Society** (SCI, JCR Q1)
 - **Environmental Impact Assessment Review** (SSCI, JCR Q1)
 - **Habitat International** (SSCI, JCR Q1)
 - **GIScience & Remote Sensing** (SCI, JCR Q1)
-- **International Journal of Disaster Risk Reduction** (SCI, JCR Q1) 
+- **International Journal of Disaster Risk Reduction** (SCI, JCR Q1)
 - **Humanities & Social Sciences Communications** (SSCI, JCR Q1)
 - **Scientific Reports** (SCI, JCR Q1)
 - **Environmental Sciences Europe** (SCI, JCR Q1)
 - **Geocarto International** (SCI, JCR Q2)
-- **Natural Hazards Research** (SCI, JCR Q2) 
-- **Theoretical and Applied Climatology** (SCI, JCR Q3) 
+- **Natural Hazards Research** (SCI, JCR Q2)
+- **Theoretical and Applied Climatology** (SCI, JCR Q3)
 - **Frontiers in Earth Science** (SCI, JCR Q3)
 - **BMC Public Health** (SCIE, JCR Q1)
 - **Environmental and Sustainability Indicators**
@@ -85,11 +86,13 @@ Sep 2021 – Jun 2024
 ## Skills
 
 ### Software
-Climate Data Operator (CDO) · ArcGIS / ArcGIS Pro · SPSS · Adobe Photoshop · Adobe Illustrator  
+
+Climate Data Operator (CDO) · ArcGIS / ArcGIS Pro · SPSS · Adobe Photoshop · Adobe Illustrator
 
 ### Programming
+
 **R** — SpatialML, parallel computing, ggplot2, ncdf4  
-**Python** — basic  
+**Python** — basic
 
 ---
 
