@@ -1,37 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap");
-
 /* ===============================
-   Academic Typography
-   Source Sans 3 + Source Serif 4
+   Final typography override
+   Keep this block at the very end
 ================================ */
 
-:root {
-  --academic-font-sans:
-    "Source Sans 3", "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-
-  --academic-font-serif:
-    "Source Serif 4", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", Georgia, "Times New Roman", serif;
+/* 全站使用稳定的现代无衬线字体 */
+html,
+body,
+.navbar,
+.navbar-brand,
+.post,
+.page,
+.about,
+.profile,
+.publications,
+.bibliography,
+.news,
+table,
+p,
+ul,
+ol,
+li {
+  font-family:
+    "Segoe UI Variable Text",
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans SC",
+    "Microsoft YaHei",
+    sans-serif !important;
 }
 
-/* ===============================
-   Global Typography
-================================ */
-
-/* 正文、导航和基本信息 */
+/* 正文字号与行距 */
 body {
-  font-family: var(--academic-font-sans);
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 1.72;
-  letter-spacing: 0.005em;
-  color: var(--global-text-color, #2d333b);
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  font-size: 17px !important;
+  line-height: 1.7 !important;
+  letter-spacing: 0 !important;
+  color: var(--global-text-color, #252525);
 }
 
-/* 标题：学术感 serif */
+/* 标题也使用无衬线字体，彻底去除 Times New Roman */
 h1,
 h2,
 h3,
@@ -41,439 +48,111 @@ h6,
 .post h1,
 .post h2,
 .post h3,
-.about h1,
-.about h2,
-.about h3,
 .page h1,
 .page h2,
 .page h3,
+.about h1,
+.about h2,
+.about h3,
 .post-title,
-.navbar-brand {
-  font-family: var(--academic-font-serif);
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: 0.005em;
-  font-optical-sizing: auto;
-}
+.navbar-brand,
+.bibliography .title {
+  font-family:
+    "Segoe UI Variable Display",
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans SC",
+    "Microsoft YaHei",
+    sans-serif !important;
 
-/* 标题间距 */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 1.9rem;
-  margin-bottom: 0.65rem;
+  font-weight: 650 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em !important;
 }
 
 /* 标题层级 */
 h1 {
-  font-size: 2.1rem;
+  font-size: 2rem !important;
 }
 
 h2 {
-  font-size: 1.65rem;
+  font-size: 1.55rem !important;
 }
 
 h3 {
-  font-size: 1.32rem;
+  font-size: 1.25rem !important;
 }
 
-h4 {
-  font-size: 1.15rem;
-}
-
-h5,
-h6 {
-  font-size: 1rem;
-}
-
-/* 正文段落 */
-p,
-.post p,
-.about p,
-.page p {
-  line-height: 1.72;
-}
-
-/* 强调文字 */
-strong,
-b {
-  font-weight: 650;
-}
-
-/* ===============================
-   Navigation
-================================ */
-
-.navbar {
-  font-family: var(--academic-font-sans);
-  font-size: 0.96rem;
-}
-
-.navbar-brand {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-/* ===============================
-   Lists
-================================ */
-
-ul,
-ol {
-  margin-bottom: 1rem;
-}
-
-li {
-  line-height: 1.68;
-  margin-bottom: 0.28rem;
-}
-
-/* ===============================
-   Profile
-================================ */
-
+/* Profile 文字 */
 .profile p,
 .profile div,
 .profile span,
 .profile li,
 .profile .more-info {
-  font-family: var(--academic-font-sans);
-  font-size: 15.8px;
-  line-height: 1.62;
+  font-family:
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans SC",
+    "Microsoft YaHei",
+    sans-serif !important;
+
+  font-size: 15.5px !important;
+  line-height: 1.55 !important;
 }
 
+/* Profile 图片下方信息 */
 .profile .more-info {
-  color: var(--global-text-color-light, #555);
+  margin-top: 0.65rem !important;
+  margin-bottom: 1rem !important;
+  text-align: center;
 }
 
-/* ===============================
-   Links
-================================ */
-
-a {
-  color: var(--global-theme-color, #1f5f99);
-  text-decoration: none;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
+.profile .more-info p {
+  margin: 0.15rem 0 !important;
 }
 
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
-.about a,
-.post a,
-.page a {
-  text-underline-offset: 2px;
-}
-
-/* 邮箱链接 */
-a[href^="mailto"] {
-  color: #6f42c1;
-}
-
-/* ===============================
-   Social Icons
-================================ */
-
-.social a {
-  margin-right: 0.55rem;
-}
-
-/* 防止图标错误继承正文字体 */
-.social i,
-.social svg,
-.icon,
-.fa,
-.fas,
-.far,
-.fab,
-.ai {
-  letter-spacing: normal;
-}
-
-/* ===============================
-   Images
-================================ */
-
-.about img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ===============================
-   Dividers
-================================ */
-
+/* 防止分隔线穿过 Profile 的邮箱和文字 */
 hr {
-  margin: 2rem 0;
-  border: none;
-  border-top: 1px solid var(--global-divider-color, rgba(128, 128, 128, 0.2));
+  clear: both !important;
+  position: relative;
+  margin: 2rem 0 !important;
+  border: 0 !important;
+  border-top: 1px solid
+    var(--global-divider-color, rgba(128, 128, 128, 0.22)) !important;
 }
 
-/* ===============================
-   Publications
-================================ */
-
-/* bibliography 整体 */
-.publications ol.bibliography,
-ol.bibliography {
-  padding-left: 0;
-  margin-top: 1rem;
+/* 链接默认不显示下划线 */
+a {
+  text-decoration: none !important;
 }
 
-/* 每篇论文卡片 */
-.publications ol.bibliography li,
-ol.bibliography li {
-  list-style: none;
-  margin-bottom: 1.35rem;
-  padding: 1.2rem 1.3rem;
-
-  border: 1px solid var(--global-divider-color, rgba(128, 128, 128, 0.18));
-
-  border-radius: 12px;
-  background: var(--global-bg-color, #fff);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.045);
-
-  font-family: var(--academic-font-sans);
-  line-height: 1.62;
+/* 只有鼠标悬停时才显示精细下划线 */
+a:hover,
+a:focus-visible {
+  text-decoration-line: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.22em !important;
+  text-decoration-skip-ink: auto !important;
 }
 
-/* 论文标题 */
-.bibliography .title {
-  margin-bottom: 0.3rem;
-
-  font-family: var(--academic-font-serif);
-  font-size: 1.05rem;
-  font-weight: 650;
-  line-height: 1.42;
-  letter-spacing: 0.002em;
-  font-optical-sizing: auto;
-}
-
-/* 作者与期刊信息 */
-.bibliography .author,
-.bibliography .authors,
-.bibliography .journal,
-.bibliography .periodical {
-  font-family: var(--academic-font-sans);
-  line-height: 1.58;
-}
-
-/* 期刊信息稍微弱化 */
-.bibliography .journal,
-.bibliography .periodical {
-  color: var(--global-text-color-light, #555);
-}
-
-/* 预览图区域 */
-ol.bibliography li .preview {
-  margin-right: 1rem;
-}
-
-ol.bibliography li .preview img {
-  border-radius: 9px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-}
-
-/* 论文操作按钮和链接 */
-.links,
-.bibliography .links {
-  margin-top: 0.6rem;
-}
-
-.links a,
-.bibliography .links a {
-  margin-right: 0.45rem;
-}
-
-/* 作者姓名高亮 */
-.bibliography strong,
-.bibliography b {
-  font-weight: 700;
-}
-
-/* ===============================
-   Publication Badges
-================================ */
-
-.pub-badge {
-  display: inline-block;
-
-  margin-top: 0.4rem;
-  margin-right: 0.42rem;
-  padding: 0.2rem 0.58rem;
-
-  border-radius: 999px;
-
-  font-family: var(--academic-font-sans);
-  font-size: 0.78rem;
-  font-weight: 600;
-  line-height: 1.2;
-
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-/* ESI Hot Paper */
-.pub-badge-hot {
-  color: #6f42c1;
-  background: rgba(111, 66, 193, 0.1);
-  border: 1px solid rgba(111, 66, 193, 0.22);
-}
-
-/* Q1 / Q2 等分区 */
-.pub-badge-rank {
-  color: #0f6540;
-  background: rgba(25, 135, 84, 0.1);
-  border: 1px solid rgba(25, 135, 84, 0.22);
-}
-
-/* Nature Index / Special tag */
-.pub-badge-index {
-  color: #1f4e79;
-  background: rgba(13, 110, 253, 0.1);
-  border: 1px solid rgba(13, 110, 253, 0.2);
-}
-
-/* Citation / Metric */
-.pub-badge-citation {
-  color: #7a4b00;
-  background: rgba(255, 193, 7, 0.12);
-  border: 1px solid rgba(255, 193, 7, 0.27);
-}
-
-/* 外部 badge 容器 */
-.badges,
-.badge-links,
-.metrics {
-  margin-top: 0.45rem;
-}
-
-/* ===============================
-   About / News / Talks / CV
-================================ */
-
-/* News / Talks 页面 */
-.page ul li,
-.page ol li {
-  margin-bottom: 0.35rem;
-}
-
-/* CV 页面信息密度 */
-.page h2 + p,
-.page h2 + ul,
-.page h2 + ol {
-  margin-top: 0.4rem;
-}
-
-/* 日期、辅助信息 */
-.post-meta,
-.news .table,
-.news .table td,
-.news .table th {
-  font-family: var(--academic-font-sans);
-}
-
-/* ===============================
-   Code and Technical Content
-================================ */
-
-code,
-pre,
-kbd,
-samp {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-}
-
-/* ===============================
-   Responsive
-================================ */
-
+/* 手机端 */
 @media (max-width: 768px) {
   body {
-    font-size: 16px;
-    line-height: 1.7;
-    letter-spacing: 0;
+    font-size: 16px !important;
+    line-height: 1.68 !important;
   }
 
   h1 {
-    font-size: 1.85rem;
+    font-size: 1.75rem !important;
   }
 
   h2 {
-    font-size: 1.48rem;
+    font-size: 1.42rem !important;
   }
 
   h3 {
-    font-size: 1.24rem;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 1.45rem;
-  }
-
-  .navbar-brand {
-    font-size: 1.1rem;
-  }
-
-  .profile {
-    margin-bottom: 1rem;
-  }
-
-  .profile p,
-  .profile div,
-  .profile span,
-  .profile li,
-  .profile .more-info {
-    font-size: 15px;
-  }
-
-  .publications ol.bibliography li,
-  ol.bibliography li {
-    padding: 1rem;
-    border-radius: 10px;
-  }
-
-  .bibliography .title {
-    font-size: 1rem;
-  }
-
-  .pub-badge {
-    font-size: 0.74rem;
-  }
-}
-
-/* 超小屏幕 */
-@media (max-width: 420px) {
-  body {
-    font-size: 15.8px;
-  }
-
-  h1 {
-    font-size: 1.72rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-  }
-
-  .publications ol.bibliography li,
-  ol.bibliography li {
-    padding: 0.9rem;
+    font-size: 1.2rem !important;
   }
 }
