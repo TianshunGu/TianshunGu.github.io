@@ -71,6 +71,7 @@ Sep 2021 – Jun 2024
 - **Sustainable Cities and Society** (SCI, JCR Q1)
 - **Environmental Impact Assessment Review** (SSCI, JCR Q1)
 - **Habitat International** (SSCI, JCR Q1)
+- **The Innovation Geoscience**
 - **GIScience & Remote Sensing** (SCI, JCR Q1)
 - **International Journal of Disaster Risk Reduction** (SCI, JCR Q1)
 - **Humanities & Social Sciences Communications** (SSCI, JCR Q1)
