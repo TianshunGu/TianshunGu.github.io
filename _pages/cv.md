@@ -82,6 +82,7 @@ Sep 2021 – Jun 2024
 - **Frontiers in Earth Science** (SCI, JCR Q3)
 - **BMC Public Health** (SCIE, JCR Q1)
 - **Environmental and Sustainability Indicators**
+- **Environmental Development**
 
 ---
 
