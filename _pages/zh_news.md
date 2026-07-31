@@ -10,7 +10,7 @@ description: 最新动态与学术进展
 ## 2026
 
 - **2026 年 7 月 18 日**  
-  🎤 应窦银博士邀请，我参加了 City+Talk 系列第 47 期“暴雨强度的时空分布在城市地区比农村地区更陡峭”，介绍了城市化重塑极端降雨格局的最新研究，并讨论了其对城市洪涝风险、预警与应急响应的意义。  
+  🎤 应窦寅博士邀请，我参加了 City+Talk 系列第 47 期“暴雨强度的时空分布在城市地区比农村地区更陡峭”，介绍了城市化重塑极端降雨格局的最新研究，并讨论了其对城市洪涝风险、预警与应急响应的意义。  
   [👉 阅读全文（微信公众号）](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
 
 - **2026 年 7 月 13 日**  
@@ -28,7 +28,7 @@ description: 最新动态与学术进展
   🎤 我参加了第三届水文过程变化与调控论坛。
 
 - **2026 年 3 月 16 日**  
-  🎤 应张妍博士邀请，我参加了 GISChat 系列讲座第 26 期“Host × GIS：搭建与运营自己的平台”，分享了“城市地理之光”的建设过程及对城市地理科学传播的思考。  
+  🎤 应张岩博士邀请，我参加了 GISChat 系列讲座第 26 期“Host × GIS：搭建与运营自己的平台”，分享了“城市地理之光”的建设过程及对城市地理科学传播的思考。  
   [👉 阅读全文（微信公众号）](https://mp.weixin.qq.com/s/RIPRQD_jyImL2txs8eEsyg)
 
 - **2026 年 2 月 13 日**  
@@ -44,7 +44,7 @@ description: 最新动态与学术进展
 ## 2025
 
 - **2025 年 12 月 20 日**  
-  🏅 入选中国科协 2025 年青年人才托举工程博士生专项计划。
+  🏅 入选中国科协 2025 年青年人才培养工程博士生专项计划。
 
 - **2025 年 11 月 15 日**  
   📄 我们发表于 _Sustainable Cities and Society_ 的论文 _Attribution Analysis of Urban Social Resilience Differences under Rainstorm Disaster Impact: Insights from Interpretable Spatial Machine Learning Framework_ 入选  
@@ -92,7 +92,7 @@ description: 最新动态与学术进展
   🎓 获河南大学地理学硕士学位。
 
 - **2024 年 6 月**  
-  🎤 应张妍博士邀请，在 GISChat 学术沙龙第 8 期作报告。  
+  🎤 应张岩博士邀请，在 GISChat 学术沙龙第 8 期作报告。  
   [👉 了解更多（微信公众号）](https://mp.weixin.qq.com/s/yXWdgSEImEqtuUzttcEoYQ)
 
 - **2024 年 4 月**  
