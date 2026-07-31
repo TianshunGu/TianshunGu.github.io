@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /zh/talks/
-title: 学术报告
+title: 学术汇报
 lang: zh
 translation_url: /talks/
 description: 会议报告与学术交流
