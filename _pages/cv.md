@@ -70,7 +70,7 @@ Sep 2021 – Jun 2024
 - **npj Urban Sustainability** (SCI, JCR Q1)
 - **Sustainable Cities and Society** (SCI, JCR Q1)
 - **Environmental Impact Assessment Review** (SCI, JCR Q1)
-- **Reliability Engineering & System Safety** (SSCI, JCR Q1)
+- **Reliability Engineering & System Safety** (SCI, JCR Q1)
 - **Habitat International** (SSCI, JCR Q1)
 - **The Innovation Geoscience**
 - **GIScience & Remote Sensing** (SCI, JCR Q1)
