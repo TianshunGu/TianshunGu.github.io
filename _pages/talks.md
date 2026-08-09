@@ -9,6 +9,22 @@ nav_order: 4
 description: Conference presentations and academic talks
 ---
 
+## 2026
+
+**Asia-Oceania Geosciences Society (AOGS) Annual Meeting 2026**, Fukuoka, Japan  
+Aug 2026
+Session: Water Vulnerability in the Changing Environment: Risks, Impacts, and Adaptation Strategies
+
+**2026 Spring Annual Meeting of the Geographical Society of China & Annual Meeting on Geographical Editing and Publishing**, Chongqing, China
+Apr 2026
+Session: Young Scholar Development and Academic Exchange
+
+**3rd National Forum on Hydrological Process Change and Regulation**, Zhuhai, China
+Apr 2026
+Session: Urban Water System Safety Evolution Mechanisms and Resilience Enhancement
+
+---
+
 ## 2025
 
 **China Innovation Geoscience Forum**, Nanjing, China  
