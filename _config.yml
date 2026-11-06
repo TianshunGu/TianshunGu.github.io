@@ -10,7 +10,7 @@ contact_note: >
   I welcome opportunities for collaboration, data sharing, and academic exchange. Please feel free to contact me via email.
 
 description: >
-  PhD candidate in Hydroclimatology at China University of Geosciences (Wuhan).
+  PhD candidate in Hydroclimatology at China University of Geosciences.
   My research focuses on the hydro-climatic impacts of urbanization, including extreme precipitation,
   urban climate resilience, and data-driven modeling approaches.
 
@@ -228,6 +228,12 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -325,8 +331,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
+  sort_by: none # Keep the publication order curated in papers.bib.
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid

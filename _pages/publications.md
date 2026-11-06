@@ -1,25 +1,15 @@
 ---
-layout: page
+layout: academic
 title: Publications
 permalink: /publications/
 lang: en
 translation_url: /zh/publications/
-nav: true
-nav_order: 2
-description: Selected publications and full publication list.
+section: publications
 ---
 
-## Selected Publications
-
-A selection of representative publications.
-
-{% bibliography --query @*[selected=true] %}
+{% bibliography --template academic-citation %}
 
 ---
 
-## All Publications
-
-Complete list of publications.  
-(_See Selected Publications above for highlighted works._)
-
-{% bibliography --query @*[selected!=true] %}
+- [Google Scholar](https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en)
+- [ResearchGate](https://www.researchgate.net/profile/Tianshun-Gu)

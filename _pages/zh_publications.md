@@ -1,22 +1,15 @@
 ---
-layout: page
-title: 出版物
+layout: academic
+title: 论文
 permalink: /zh/publications/
 lang: zh
 translation_url: /publications/
-description: 代表性论文与完整出版物列表
+section: publications
 ---
 
-## 精选论文
-
-以下为部分代表性研究成果。
-
-{% bibliography --query @*[selected=true] %}
+{% bibliography --template academic-citation %}
 
 ---
 
-## 全部出版物
-
-完整出版物列表（主要成果已在上方单独展示）。
-
-{% bibliography --query @*[selected!=true] %}
+- [Google Scholar](https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en)
+- [ResearchGate](https://www.researchgate.net/profile/Tianshun-Gu)

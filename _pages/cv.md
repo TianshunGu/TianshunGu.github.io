@@ -1,15 +1,10 @@
 ---
-layout: page
+layout: academic
+title: Curriculum Vitae
 permalink: /cv/
 lang: en
 translation_url: /zh/cv/
-title: CV
-nav: true
-nav_order: 5
-description: Curriculum Vitae of Tianshun Gu
 ---
-
-# Tianshun Gu
 
 Wuhan, China · 430074  
 [gutsgeo@cug.edu.cn](mailto:gutsgeo@cug.edu.cn)  
@@ -19,8 +14,12 @@ Wuhan, China · 430074
 
 ## Education
 
+**Visiting Ph.D. Student**  
+Max Planck Institute of Geoanthropology  
+Oct 1, 2026 – Present
+
 **Ph.D. in Hydroclimatology**  
-China University of Geosciences, Wuhan, China  
+China University of Geosciences  
 Sep 2024 – Present
 
 **M.S. in Geography**  
@@ -33,10 +32,11 @@ Sep 2021 – Jun 2024
 
 ### National & Provincial
 
+- **National Scholarship for Doctoral Students** _(Top 1%)_, 2026
 - **CAST Youth Talent Support Program (PhD Students)**, 2025
 - **Henan Province Outstanding Graduate** _(Top 1%)_, 2024
 - **Postgraduate Academic Scholarship** _(×3)_, 2024
-- **China National Scholarship** _(Top 1%)_, 2023
+- **National Scholarship for Master’s Students** _(Top 1%)_, 2023
 - **Hebei Province Outstanding Undergraduate Thesis**, 2021
 - **Hebei Province Outstanding Graduate** _(Top 1%)_, 2021
 - **Outstanding Student Collective (Class Secretary)**, 2021
@@ -56,7 +56,8 @@ Sep 2021 – Jun 2024
 
 ## Research Projects & Awards
 
-- 2026 Doctoral Student Top-Tier Innovative Talent Development Program, China University of Geosciences (Wuhan) — _Principal Investigator_
+- **Mechanisms underlying the impacts of global urbanization on the spatiotemporal evolution of extreme precipitation and associated risks**. China University of Geosciences, Jun 2026–May 2028. Grant BJCX2026034.
+- 2026 Doctoral Student Top-Tier Innovative Talent Development Program, China University of Geosciences — _Principal Investigator_
 - **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — _Principal Investigator_
 - **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-1035), Kaifeng — _Principal Investigator_
 - **First Prize**, Philosophy & Social Sciences Planning Project (ZXSKGH-2022-0833), Kaifeng — _First Contributor_
@@ -67,25 +68,27 @@ Sep 2021 – Jun 2024
 
 ## Peer Review Service
 
-- **npj Urban Sustainability** (SCI, JCR Q1)
-- **Sustainable Cities and Society** (SCI, JCR Q1)
-- **Environmental Impact Assessment Review** (SCI, JCR Q1)
-- **Reliability Engineering & System Safety** (SCI, JCR Q1)
+Quartiles reflect the highest subject category in the 2026 JCR release.
+
+- **Communications Earth & Environment** (SCIE, JCR Q1)
+- **Cell Reports Sustainability** (ESCI, JCR Q1)
+- **Journal of Hydrology** (SCIE, JCR Q1)
+- **Cities** (SSCI, JCR Q1)
+- **Building and Environment** (SCIE, JCR Q1)
+- **Applied Geography** (SSCI, JCR Q1)
+- **Urban Climate** (SCIE, JCR Q1)
+- **Ecological Indicators** (SCIE, JCR Q1)
+- **npj Urban Sustainability** (SSCI, JCR Q1)
+- **Sustainable Cities and Society** (SCIE, JCR Q1)
+- **Environmental Impact Assessment Review** (SSCI, JCR Q1)
+- **Reliability Engineering & System Safety** (SCIE, JCR Q1)
 - **Habitat International** (SSCI, JCR Q1)
-- **The Innovation Geoscience**
-- **GIScience & Remote Sensing** (SCI, JCR Q1)
-- **International Journal of Disaster Risk Reduction** (SCI, JCR Q1)
-- **Humanities & Social Sciences Communications** (SSCI, JCR Q1)
-- **Scientific Reports** (SCI, JCR Q1)
-- **Environmental Sciences Europe** (SCI, JCR Q1)
-- **Geocarto International** (SCI, JCR Q2)
-- **Natural Hazards Research** (SCI, JCR Q2)
-- **Theoretical and Applied Climatology** (SCI, JCR Q3)
-- **Frontiers in Earth Science** (SCI, JCR Q3)
+- **GIScience & Remote Sensing** (SCIE, JCR Q1)
+- **International Journal of Disaster Risk Reduction** (SCIE, JCR Q1)
+- **Humanities & Social Sciences Communications** (SSCI, AHCI, JCR Q1)
+- **Environmental Sciences Europe** (SCIE, JCR Q1)
 - **BMC Public Health** (SCIE, JCR Q1)
-- **Environmental and Sustainability Indicators**
-- **Environmental Development**
-- **PLOS Water**
+- **The Innovation Geoscience** (Scopus, no JCR quartile)
 
 ---
 

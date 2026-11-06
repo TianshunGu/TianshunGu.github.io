@@ -1,164 +1,57 @@
 ---
-layout: about
-title: Tianshun Gu
+layout: academic
+title: Home
 permalink: /
 lang: en
 translation_url: /zh/
-subtitle: PhD candidate in Hydroclimatology · China University of Geosciences (Wuhan)
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p>PhD Candidate</p>
-    <p>Wuhan, China</p>
-    <p>
-      <a href="mailto:gutsgeo@cug.edu.cn" style="color:#6f42c1; text-decoration:none;">
-        gutsgeo@cug.edu.cn
-      </a>
-    </p>
-
-social: false
-
-announcements:
-  enabled: false
-
-latest_posts:
-  enabled: false
+section: home
 ---
 
-I am a PhD candidate in Hydroclimatology at China University of Geosciences (Wuhan). My research focuses on the hydro-climatic impacts of urbanization, with particular emphasis on extreme precipitation dynamics, urban climate resilience, and data-driven modeling approaches.
-
-My work integrates large-scale climate datasets, spatial–temporal analysis, and machine learning techniques to better understand how urbanization reshapes precipitation processes and associated hydrological risks.
-
----
-
-## Research Interests
-
-- Hydroclimatic effects of urbanization
-- Urban climate resilience and flood risk
-- Detection and attribution using machine learning
-
----
-
-## Academic Profiles
-
-<p style="line-height: 2;">
-  <a href="https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-    <i class="ai ai-google-scholar" style="margin-right:6px;"></i> Google Scholar
-  </a><br>
-
-  <a href="https://orcid.org/0000-0001-6359-8028" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-orcid" style="margin-right:6px;"></i> ORCID
-  </a><br>
-
-  <a href="https://www.researchgate.net/profile/Tianshun-Gu" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-researchgate" style="margin-right:6px;"></i> ResearchGate
-  </a><br>
-
-  <a href="https://github.com/TianshunGu" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-github" style="margin-right:6px;"></i> GitHub
-  </a>
-</p>
-
----
-
-## Outreach
-
-I also curate _Urban Geography Illumination_ (城市地理之光), a public science communication initiative on urban geography, where I share ideas and reflections on urban science and geographical research.
-
----
-
-## News
-
-- **Jul 18, 2026**  
-  🎤 Invited by Dr. Yin Dou, I participated in the City+Talk Series (Episode 47), The Spatiotemporal Distribution of Rainstorm Intensity Is Steeper in Urban Areas Than in Rural Areas. I presented our recent research on how urbanization reshapes extreme rainfall patterns and discussed its implications for urban flood risk, early warning, and emergency response.  
-  [👉 Full article (WeChat, in Chinese)](https://mp.weixin.qq.com/s/vEkOr72tX0iG4-JP3g8EOw)
-
-- **Jul 13, 2026**  
-  📄 Our paper, _Spatial Heterogeneity of Urban Resilience: Quantifying Key Determinants by a Spatial Machine Learning Model Embedded in the Density–Structure–Function Framework_, published in _Cities_, was recognized as both  
-  <span style="color:#6f42c1; font-weight:700;">an ESI Hot Paper (Top 0.1%) and an ESI Highly Cited Paper (Top 1%)</span>.  
-  [👉 Read more (WeChat article, in Chinese)](https://mp.weixin.qq.com/s/GDqKBbE4HcLybycrPvNM2g)
-- **Jul 5, 2026**  
-  🎤 I participated in the 2026 “Navigation Program” National Conditions Study Program for Young Science and Technology Professionals (113th Session), organized by the Party School of the China Association for Science and Technology (Academy of Science and Technology Talents).
-
-<p style="margin-top:0.5rem;">
-  <a href="/news/">View all news →</a>
-</p>
-
----
-
-## Selected Publications
-
-{% bibliography --query @*[homepage_selected=true] %}
-
-<p style="margin-top:0.5rem;">
-  <a href="/publications/">View all publications →</a>
-</p>
-
----
-
-## Global Visitors
-
-<div style="margin-top: 1.25rem;">
-  <a href="https://info.flagcounter.com/jlT1" target="_blank" rel="noopener noreferrer" style="display:block;">
-    <img
-      src="https://s01.flagcounter.com/map/jlT1/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
-      alt="Visitor map"
-      style="
-        width: 100%;
-        height: auto;
-        border-radius: 14px;
-        box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-      "
-    >
-  </a>
-</div>
-
-<div style="margin-top: 1.8rem; text-align: center;">
-  <button
-    id="like-button"
-    style="
-      border: 1px solid #dddddd;
-      background: #ffffff;
-      color: #444;
-      border-radius: 999px;
-      padding: 0.45rem 1rem;
-      cursor: pointer;
-      font-size: 0.92rem;
-      line-height: 1.2;
-      transition: all 0.2s ease;
-    "
-  >
-    Appreciate this page
-  </button>
-  <div
-    id="like-message"
-    style="
-      margin-top: 0.65rem;
-      color: #6f42c1;
-      font-size: 0.92rem;
-      display: none;
-    "
-  >
-    Thank you. Wishing you every success in your research, publications, and future funding.
+<div class="intro">
+  <img class="portrait" src="{{ '/assets/img/tianshun-gu-portrait.jpg' | relative_url }}" width="250" height="250" alt="Tianshun Gu">
+  <div>
+    <p class="intro-name"><strong>Tianshun Gu · PhD Candidate in Hydroclimatology</strong></p>
+    <p>I am a PhD candidate at China University of Geosciences. I study how urbanization reshapes precipitation, how these changes affect flood and drought risks, and what they mean for building climate-resilient cities.</p>
+    <p><em>In Chinese, my first name, Tianshun, carries a wish that everything goes smoothly every day. The weather, as it turns out, has other plans.</em></p>
+    <div class="profiles" aria-label="Academic profiles and CV">
+      <a class="scholar" href="https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar"></a>
+      <a class="researchgate" href="https://www.researchgate.net/profile/Tianshun-Gu" aria-label="ResearchGate" title="ResearchGate"></a>
+      <a class="orcid" href="https://orcid.org/0000-0001-6359-8028" aria-label="ORCID" title="ORCID"></a>
+      <a class="cv" href="{{ '/cv/' | relative_url }}" aria-label="Curriculum vitae" title="Curriculum vitae"></a>
+    </div>
   </div>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const button = document.getElementById("like-button");
-    const message = document.getElementById("like-message");
+{% include academic-latest-news.liquid %}
 
-    if (button && message) {
-      button.addEventListener("click", function () {
-        button.style.background = "#f6f1ff";
-        button.style.borderColor = "#d7c3f3";
-        button.style.color = "#6f42c1";
-        button.innerHTML = "Appreciated";
-        message.style.display = "block";
-      });
-    }
-  });
-</script>
+## Education
+
+- **Visiting Ph.D. Student**, Max Planck Institute of Geoanthropology, Oct 1, 2026–present
+- **Ph.D. candidate in Hydroclimatology**, China University of Geosciences, 2024–present
+- **M.S. in Geography**, Henan University, 2024
+
+---
+
+## Experience
+
+Urbanization changes the land surface and the way it exchanges heat and moisture with the atmosphere. As the climate warms, understanding how those local changes interact with regional climate can help explain why rainfall responds differently across cities. A shift in when, where, or how rain falls can affect both the risk of flooding and the reliability of water supplies during dry periods.
+
+My research connects these hydroclimate questions with how cities prepare for and respond to water-related hazards. In my [published work]({{ '/research/' | relative_url }}), I examine differences in extreme rainfall between urban and rural areas<sup><a class="paper-cite" href="{{ '/publications/#paper-gu2026steeper' | relative_url }}">Paper</a></sup> and explore why some neighborhoods are better equipped than others to cope with heavy rain.<sup><a class="paper-cite" href="{{ '/publications/#paper-gu2025spatial' | relative_url }}">Paper</a>, <a class="paper-cite" href="{{ '/publications/#paper-gu2025attribution' | relative_url }}">Paper</a>, <a class="paper-cite" href="{{ '/publications/#paper-gu2026FRA' | relative_url }}">Paper</a></sup> These perspectives bring the physical processes that shape hazards together with the local conditions that shape resilience.
+
+I run _Urban Geography Illumination_ (城市地理之光), a WeChat Official Account for sharing and discussing research on climate resilience, smart cities, and social equity.
+
+---
+
+## Research Keywords
+
+- Urban Hydroclimate
+- Climate Resilience
+- Urbanization Effects
+- Data-driven Approaches
+
+---
+
+## Contact
+
+- [gutsgeo@cug.edu.cn](mailto:gutsgeo@cug.edu.cn)
+- [gutsgeo@163.com](mailto:gutsgeo@163.com)

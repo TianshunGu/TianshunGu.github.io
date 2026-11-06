@@ -1,0 +1,10 @@
+---
+---
+<span id="paper-{{ entry.key | escape }}">
+  {{- reference | replace: 'Gu, T.', '<strong>Gu, T.</strong>' | replace: '谷天顺', '<strong>谷天顺</strong>' -}}
+</span>
+{% if entry.doi %}
+  {% unless reference contains 'doi.org/' %}
+    <a class="publication-doi" href="https://doi.org/{{ entry.doi | escape }}">{{ entry.doi | escape }}</a>
+  {% endunless %}
+{% endif %}

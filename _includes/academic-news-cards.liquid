@@ -1,0 +1,20 @@
+{% assign entries = site.pages | where: 'news_entry', true | where: 'lang', page.lang | sort: 'news_date' | reverse %}
+<div class="news-grid">
+  {% for entry in entries %}
+    <article class="news-card">
+      <a href="{{ entry.url | relative_url }}" aria-label="{{ entry.title | escape }}">
+        <img src="{{ entry.news_image | relative_url }}" alt="" width="400" height="300" loading="lazy">
+      </a>
+      <h2>
+        <a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a>
+      </h2>
+      <time class="news-date" datetime="{{ entry.news_date | escape }}">{{ entry.news_date_label | escape }}</time>
+      <p>
+        {{ entry.news_summary | escape }}
+        <a href="{{ entry.url | relative_url }}">
+          {%- if page.lang == 'zh' %}阅读全文{% else %}Read more{% endif -%}
+        </a>
+      </p>
+    </article>
+  {% endfor %}
+</div>

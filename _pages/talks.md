@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: academic
 permalink: /talks/
 lang: en
 translation_url: /zh/talks/
 title: Talks
-nav: true
-nav_order: 4
 description: Conference presentations and academic talks
 ---
 

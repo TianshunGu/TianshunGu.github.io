@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: academic
 permalink: /zh/talks/
 title: 学术汇报
 lang: zh

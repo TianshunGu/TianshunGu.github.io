@@ -1,0 +1,10 @@
+{% assign latest = site.pages | where: 'news_entry', true | where: 'lang', page.lang | sort: 'news_date' | last %}
+{% if latest %}
+  <p class="latest-news">
+    {% if page.lang == 'zh' %}
+      <a href="{{ '/zh/news/' | relative_url }}">最新动态：{{ latest.title | escape }}（{{ latest.news_date_label | escape }}）</a>
+    {% else %}
+      <a href="{{ '/news/' | relative_url }}">Latest News: {{ latest.title | escape }} ({{ latest.news_date_label | escape }})</a>
+    {% endif %}
+  </p>
+{% endif %}

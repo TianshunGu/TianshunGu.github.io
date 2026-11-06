@@ -1,0 +1,102 @@
+---
+---
+{% assign zh = false %}
+{% if page.lang == 'zh' %}
+  {% assign zh = true %}
+{% endif %}
+{% assign prefix = '' %}
+{% if zh %}
+  {% assign prefix = '/zh' %}
+{% endif %}
+<!doctype html>
+<html lang="{% if zh %}zh-CN{% else %}en{% endif %}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+    <title>
+      {{ page.title | escape }}
+      | Tianshun Gu
+    </title>
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">
+      {%- if zh %}跳到正文{% else %}Skip to content{% endif -%}
+    </a>
+    <header class="masthead">
+      {% if page.section == 'home' %}
+        <h1 class="site-name">
+          {% if zh %}谷天顺{% else %}Tianshun Gu{% endif %}
+        </h1>
+      {% else %}
+        <p class="site-name">
+          {% if zh %}谷天顺{% else %}Tianshun Gu{% endif %}
+        </p>
+      {% endif %}
+      <p class="site-subtitle">
+        {% if zh -%}
+          <span lang="en">Tianshun Gu</span>
+        {%- else -%}
+          <span lang="zh-CN">谷天顺</span> (Chinese name)
+        {%- endif %}
+      </p>
+      <nav aria-label="{% if zh %}主导航{% else %}Main navigation{% endif %}">
+        <a
+          href="{{ prefix | append: '/' | relative_url }}"
+          {% if page.section == 'home' %}
+            aria-current="page"
+          {% endif %}
+        >
+          {%- if zh %}首页{% else %}Home{% endif -%}
+        </a>
+        <a
+          href="{{ prefix | append: '/research/' | relative_url }}"
+          {% if page.section == 'research' %}
+            aria-current="page"
+          {% endif %}
+        >
+          {%- if zh %}研究{% else %}Research{% endif -%}
+        </a>
+        <a
+          href="{{ prefix | append: '/publications/' | relative_url }}"
+          {% if page.section == 'publications' %}
+            aria-current="page"
+          {% endif %}
+        >
+          {%- if zh %}论文{% else %}Publications{% endif -%}
+        </a>
+        <a
+          href="{{ prefix | append: '/news/' | relative_url }}"
+          {% if page.news_entry %}
+            aria-current="location"
+          {% elsif page.section == 'news' %}
+            aria-current="page"
+          {% endif %}
+        >
+          {%- if zh %}动态{% else %}News{% endif -%}
+        </a>
+      </nav>
+      {% if page.translation_url %}
+        <a class="language" href="{{ page.translation_url | relative_url }}" lang="{% if zh %}en{% else %}zh-CN{% endif %}">
+          {%- if zh %}English{% else %}中文{% endif -%}
+        </a>
+      {% endif %}
+    </header>
+    <main id="content" class="content {{ page.section | escape }}">
+      {% if page.section != 'home' %}
+        <h1
+          {% if page.section and page.news_entry != true %}
+            class="visually-hidden"
+          {% endif %}
+        >
+          {{ page.title | escape }}
+        </h1>
+      {% endif %}
+      {% if page.news_entry %}
+        <time class="news-date" datetime="{{ page.news_date | escape }}">{{ page.news_date_label | escape }}</time>
+      {% endif %}
+      {{ content }}
+    </main>
+  </body>
+</html>
