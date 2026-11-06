@@ -9,11 +9,15 @@
   {% when 'zhao2022locational' %}
     {% assign citation = citation | replace: 'Gu, T.', 'Gu, T.*' %}
 {% endcase %}
+{% if entry.doi %}
+  {% assign doi_url = entry.doi | prepend: 'https://doi.org/' | escape %}
+  {% capture doi_link %}<a class="publication-doi" href="{{ doi_url }}">{{ doi_url }}</a>{% endcapture %}
+  {% if citation contains doi_url %}
+    {% assign citation = citation | replace: doi_url, doi_link %}
+  {% else %}
+    {% assign citation = citation | append: ' ' | append: doi_link %}
+  {% endif %}
+{% endif %}
 <span id="paper-{{ entry.key | escape }}">
   {{- citation | replace: 'Gu, T.', '<strong>Gu, T.</strong>' | replace: '谷天顺', '<strong>谷天顺</strong>' -}}
 </span>
-{% if entry.doi %}
-  {% unless reference contains 'doi.org/' %}
-    <a class="publication-doi" href="https://doi.org/{{ entry.doi | escape }}">{{ entry.doi | escape }}</a>
-  {% endunless %}
-{% endif %}
