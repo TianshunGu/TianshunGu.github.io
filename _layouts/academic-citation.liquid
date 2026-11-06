@@ -1,7 +1,16 @@
 ---
 ---
+{% assign citation = reference %}
+{% case entry.key %}
+  {% when 'zhao2025unveiling' %}
+    {% assign citation = citation | replace: 'Gu, T.', 'Gu, T.*' | replace: 'Fang, D.', 'Fang, D.*' %}
+  {% when 'zhao2023urban' %}
+    {% assign citation = citation | replace: 'Gu, T.', 'Gu, T.*' | replace: '<i>IScience</i>', '<i>iScience</i>' %}
+  {% when 'zhao2022locational' %}
+    {% assign citation = citation | replace: 'Gu, T.', 'Gu, T.*' %}
+{% endcase %}
 <span id="paper-{{ entry.key | escape }}">
-  {{- reference | replace: 'Gu, T.', '<strong>Gu, T.</strong>' | replace: '谷天顺', '<strong>谷天顺</strong>' -}}
+  {{- citation | replace: 'Gu, T.', '<strong>Gu, T.</strong>' | replace: '谷天顺', '<strong>谷天顺</strong>' -}}
 </span>
 {% if entry.doi %}
   {% unless reference contains 'doi.org/' %}
