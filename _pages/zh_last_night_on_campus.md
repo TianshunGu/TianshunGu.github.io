@@ -1,6 +1,6 @@
 ---
 layout: academic
-title: 今年在国内校园的最后一晚
+title: 今年在地大的最后一晚
 permalink: /zh/news/last-night-on-campus/
 lang: zh
 translation_url: /news/last-night-on-campus/
@@ -9,10 +9,10 @@ news_entry: true
 news_date: "2026-09-29"
 news_date_label: 2026 年 9 月 29 日
 news_summary: 出国前，记下与亲友相聚的几件小事，也提醒自己为什么选择出发。
-news_image: /assets/news/campus-farewell-sunset.jpg
+news_image: /assets/news/campus-farewell-waterfront.jpg
 ---
 
-纪念今年我在国内校园的最后一晚。出国前想尽可能跟所有的亲朋好友相聚一场，却不得不承认，由自己支配的时间会随着年龄的增长而越来越少。不过：
+纪念今年我在地大的最后一晚。出国前想尽可能跟所有的亲朋好友相聚一场，却不得不承认，由自己支配的时间会随着年龄的增长而越来越少。不过：
 
 好在回家和弟弟一起吃了顿爸妈包的饺子；  
 好在跟娇娇一起喂了她们楼下的流浪猫，还假装听课老师，目睹了娇娇课堂上深入浅出的名师风范；  

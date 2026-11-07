@@ -1,6 +1,6 @@
 ---
 layout: academic
-title: My Last Night on Campus in China
+title: My Last Night on Campus at CUG
 permalink: /news/last-night-on-campus/
 lang: en
 translation_url: /zh/news/last-night-on-campus/
@@ -9,10 +9,10 @@ news_entry: true
 news_date: "2026-09-29"
 news_date_label: September 29, 2026
 news_summary: A few goodbyes before leaving China for my time abroad, and a reminder of why I chose to go.
-news_image: /assets/news/campus-farewell-sunset.jpg
+news_image: /assets/news/campus-farewell-waterfront.jpg
 ---
 
-I wanted to remember my last night on campus in China this year. Before leaving for my time abroad, I hoped to see as many friends and family members as I could. I’m beginning to admit that the older I get, the less of my time feels like my own. Still, I was glad for the time I did have.
+I wanted to remember my last night on campus at CUG this year. Before leaving for my time abroad, I hoped to see as many friends and family members as I could. I’m beginning to admit that the older I get, the less of my time feels like my own. Still, I was glad for the time I did have.
 
 I was glad I got to go home and eat my parents’ homemade dumplings with my little brother.  
 I was glad Jiaojiao and I got to feed the stray cats outside her building, and that I got to pose as a visiting teacher and watch her make a difficult lesson look easy.  
