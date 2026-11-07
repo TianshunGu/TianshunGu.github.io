@@ -21,3 +21,6 @@
 <span id="paper-{{ entry.key | escape }}">
   {{- citation | replace: 'Gu, T.', '<strong>Gu, T.</strong>' | replace: '谷天顺', '<strong>谷天顺</strong>' -}}
 </span>
+{% if entry.award_name %}
+  <strong> [{{ entry.award_name | escape }}]</strong>
+{% endif %}
