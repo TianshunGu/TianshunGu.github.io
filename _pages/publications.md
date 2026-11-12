@@ -7,4 +7,4 @@ translation_url: /zh/publications/
 section: publications
 ---
 
-Looking for my research? Follow the runoff to the [Research page](/research/).
+This page is brief, much like some of the rainstorms I study. There’s more on the [Research page](/research/).
