@@ -1,6 +1,6 @@
 ---
 layout: academic
-title: 论文
+title: 代表性论文
 permalink: /zh/publications/
 lang: zh
 translation_url: /publications/

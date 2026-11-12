@@ -86,7 +86,7 @@
     <main id="content" class="content {{ page.section | escape }}">
       {% if page.section != 'home' %}
         <h1
-          {% if page.section and page.news_entry != true %}
+          {% if page.section and page.section != 'publications' and page.news_entry != true %}
             class="visually-hidden"
           {% endif %}
         >

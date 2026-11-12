@@ -1,6 +1,6 @@
 ---
 layout: academic
-title: Publications
+title: Selected Publications
 permalink: /publications/
 lang: en
 translation_url: /zh/publications/
