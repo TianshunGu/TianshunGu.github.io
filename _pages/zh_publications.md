@@ -7,7 +7,7 @@ translation_url: /publications/
 section: publications
 ---
 
-{% bibliography --template academic-citation %}
+{% bibliography --template academic-citation --query @*[publications_page=true] %}
 
 ---
 
