@@ -14,7 +14,7 @@ description: Research on extreme precipitation, urban resilience, and social res
   <p>Urban events showed a sharper intensity peak and a quicker decline after it. Rainfall also intensified toward the center of the storm footprint and weakened toward its edges. These patterns help identify when and where extreme rainfall is most concentrated, with implications for urban flood preparedness.</p>
   <figure>
     <a href="{{ '/assets/research/rainfall-structure.jpg' | relative_url }}" aria-label="Open larger figure: Maps and charts comparing trends in peak and total precipitation at urban and rural stations"><img src="{{ '/assets/research/rainfall-structure.jpg' | relative_url }}" alt="Maps and charts comparing trends in peak and total precipitation at urban and rural stations" width="3292" height="3400" loading="lazy"></a>
-    <figcaption>Source · <a href="https://doi.org/10.1016/j.jhydrol.2026.134930">Gu et al., <i>Journal of Hydrology</i> (2026)</a> <sup><a class="paper-cite" href="{{ '/publications/#paper-gu2026steeper' | relative_url }}">Paper</a></sup></figcaption>
+    <figcaption>Source · <a href="https://doi.org/10.1016/j.jhydrol.2026.134930">Gu et al., <i>Journal of Hydrology</i> (2026)</a></figcaption>
   </figure>
 </article>
 
@@ -24,7 +24,7 @@ description: Research on extreme precipitation, urban resilience, and social res
   <p>Between 2005 and 2020, the city's overall resilience rose by 4.5% and differences between blocks narrowed by 17.1%, although a clear core–periphery pattern persisted. By comparing density, structure, and function with a model that captures local variation, we could see where the same urban feature mattered more and where it mattered less.</p>
   <figure>
     <a href="{{ '/assets/research/urban-resilience.jpg' | relative_url }}" aria-label="Open larger figure: Urban resilience framework linking density, structure, and function"><img src="{{ '/assets/research/urban-resilience.jpg' | relative_url }}" alt="Urban resilience framework linking density, structure, and function" width="3400" height="2199" loading="lazy"></a>
-    <figcaption>Source · <a href="https://doi.org/10.1016/j.cities.2025.106305">Gu et al., <i>Cities</i> (2025)</a> <sup><a class="paper-cite" href="{{ '/publications/#paper-gu2025spatial' | relative_url }}">Paper</a></sup></figcaption>
+    <figcaption>Source · <a href="https://doi.org/10.1016/j.cities.2025.106305">Gu et al., <i>Cities</i> (2025)</a></figcaption>
   </figure>
 </article>
 
@@ -34,6 +34,6 @@ description: Research on extreme precipitation, urban resilience, and social res
   <p>Using a geographically weighted random forest and SHAP, we found local thresholds in how rainfall intensity, economic vitality, population size, and public services related to resilience. The citywide improvement can therefore mask places where flood preparedness and recovery capacity lag behind.</p>
   <figure>
     <a href="{{ '/assets/research/social-resilience.jpg' | relative_url }}" aria-label="Open larger figure: Social resilience across disaster stages, showing robustness, recovery, and adaptation"><img src="{{ '/assets/research/social-resilience.jpg' | relative_url }}" alt="Social resilience across disaster stages, showing robustness, recovery, and adaptation" width="2740" height="1819" loading="lazy"></a>
-    <figcaption>Source · <a href="https://doi.org/10.1016/j.scs.2024.106029">Gu et al., <i>Sustainable Cities and Society</i> (2025)</a> <sup><a class="paper-cite" href="{{ '/publications/#paper-gu2025attribution' | relative_url }}">Paper</a></sup></figcaption>
+    <figcaption>Source · <a href="https://doi.org/10.1016/j.scs.2024.106029">Gu et al., <i>Sustainable Cities and Society</i> (2025)</a></figcaption>
   </figure>
 </article>

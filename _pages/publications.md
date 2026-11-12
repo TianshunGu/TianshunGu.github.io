@@ -1,15 +1,10 @@
 ---
 layout: academic
-title: Selected Publications
+title: Publications
 permalink: /publications/
 lang: en
 translation_url: /zh/publications/
 section: publications
 ---
 
-{% bibliography --template academic-citation --query @*[publications_page=true] %}
-
----
-
-- [Google Scholar](https://scholar.google.com/citations?user=_F0Jv-kAAAAJ&hl=en)
-- [ResearchGate](https://www.researchgate.net/profile/Tianshun-Gu)
+Looking for my research? Follow the runoff to the [Research page](/research/).

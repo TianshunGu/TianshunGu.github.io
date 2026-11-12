@@ -36,7 +36,7 @@ section: home
 
 城市化会改变地表及其与大气交换热量和水分的方式。在气候变暖的背景下，理解这些局地变化如何与区域气候相互作用，有助于解释不同城市的降水为何呈现不同的变化。降水何时发生、落在哪里、以怎样的强度出现，都可能影响城市的洪涝风险和干旱时期的供水保障。
 
-我的研究把这些水文气候问题与城市应对水相关灾害的能力联系起来。在[已发表的研究]({{ '/zh/research/' | relative_url }})中，我关注城乡极端降雨的差异<sup><a class="paper-cite" href="{{ '/zh/publications/#paper-gu2026steeper' | relative_url }}">论文</a></sup>，也关注不同街区为何具有不同的暴雨应对能力。<sup><a class="paper-cite" href="{{ '/zh/publications/#paper-gu2025spatial' | relative_url }}">论文</a>、<a class="paper-cite" href="{{ '/zh/publications/#paper-gu2025attribution' | relative_url }}">论文</a>、<a class="paper-cite" href="{{ '/zh/publications/#paper-gu2026FRA' | relative_url }}">论文</a></sup> 这两条线索帮助我把塑造灾害的自然过程与影响城市韧性的地方条件联系起来。
+我的研究把这些水文气候问题与城市应对水相关灾害的能力联系起来。在[已发表的研究]({{ '/zh/research/' | relative_url }})中，我关注城乡极端降雨的差异<sup><a class="paper-cite" href="https://doi.org/10.1016/j.jhydrol.2026.134930">论文</a></sup>，也关注不同街区为何具有不同的暴雨应对能力。<sup><a class="paper-cite" href="https://doi.org/10.1016/j.cities.2025.106305">论文一</a>、<a class="paper-cite" href="https://doi.org/10.1016/j.scs.2024.106029">论文二</a>、<a class="paper-cite" href="https://doi.org/10.1016/j.scs.2026.107464">论文三</a></sup> 这两条线索帮助我把塑造灾害的自然过程与影响城市韧性的地方条件联系起来。
 
 我运营微信公众号 _城市地理之光_，分享气候韧性、智慧城市与社会公平领域的前沿文献，为公众提供城市科学交流平台。
 

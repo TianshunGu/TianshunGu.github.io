@@ -9,6 +9,8 @@ Jekyll::Hooks.register :site, :post_render do |site|
 
     document = Nokogiri::HTML5(publications.output)
     list = document.at_css("ol.bibliography")
+    next unless list
+
     entries = list.css("li [id^='paper-']")
     list["reversed"] = "reversed"
     numbers = entries.each_with_index.to_h { |entry, index| [entry["id"], entries.size - index] }

@@ -14,7 +14,7 @@ description: 极端降水、城市韧性和暴雨灾害下的社会韧性研究�
   <p>城市极端降雨的强度峰值更尖锐，峰后衰减更快。空间上，降雨中心强度增加，外围减弱。这些特征有助于识别暴雨在何时、何处最为集中，为城市洪涝防御提供依据。</p>
   <figure>
     <a href="{{ '/assets/research/rainfall-structure.jpg' | relative_url }}" aria-label="打开大图: 城乡站点降水峰值及总量变化趋势对比"><img src="{{ '/assets/research/rainfall-structure.jpg' | relative_url }}" alt="城乡站点降水峰值及总量变化趋势对比" width="3292" height="3400" loading="lazy"></a>
-    <figcaption>图源 · <a href="https://doi.org/10.1016/j.jhydrol.2026.134930">Gu 等，<i>Journal of Hydrology</i>（2026）</a> <sup><a class="paper-cite" href="{{ '/zh/publications/#paper-gu2026steeper' | relative_url }}">论文</a></sup></figcaption>
+    <figcaption>图源 · <a href="https://doi.org/10.1016/j.jhydrol.2026.134930">Gu 等，<i>Journal of Hydrology</i>（2026）</a></figcaption>
   </figure>
 </article>
 
@@ -24,7 +24,7 @@ description: 极端降水、城市韧性和暴雨灾害下的社会韧性研究�
   <p>2005—2020 年，郑州整体韧性提高了 4.5%，街区之间的差异缩小了 17.1%，中心与外围的分异依然明显。我们从密度、结构和功能三个维度比较街区，并用空间模型识别同一因素在不同街区的重要程度。</p>
   <figure>
     <a href="{{ '/assets/research/urban-resilience.jpg' | relative_url }}" aria-label="打开大图: 连接城市密度、结构和功能的韧性框架"><img src="{{ '/assets/research/urban-resilience.jpg' | relative_url }}" alt="连接城市密度、结构和功能的韧性框架" width="3400" height="2199" loading="lazy"></a>
-    <figcaption>图源 · <a href="https://doi.org/10.1016/j.cities.2025.106305">Gu 等，<i>Cities</i>（2025）</a> <sup><a class="paper-cite" href="{{ '/zh/publications/#paper-gu2025spatial' | relative_url }}">论文</a></sup></figcaption>
+    <figcaption>图源 · <a href="https://doi.org/10.1016/j.cities.2025.106305">Gu 等，<i>Cities</i>（2025）</a></figcaption>
   </figure>
 </article>
 
@@ -34,6 +34,6 @@ description: 极端降水、城市韧性和暴雨灾害下的社会韧性研究�
   <p>结合地理加权随机森林与 SHAP，我们发现降雨强度、经济活力、人口规模和政务服务与社会韧性的关系存在局地阈值。全市指标的改善可能掩盖部分街区在防灾准备与灾后恢复方面的短板。</p>
   <figure>
     <a href="{{ '/assets/research/social-resilience.jpg' | relative_url }}" aria-label="打开大图: 灾前、灾中和灾后的社会韧性，涵盖稳健性、恢复和适应"><img src="{{ '/assets/research/social-resilience.jpg' | relative_url }}" alt="灾前、灾中和灾后的社会韧性，涵盖稳健性、恢复和适应" width="2740" height="1819" loading="lazy"></a>
-    <figcaption>图源 · <a href="https://doi.org/10.1016/j.scs.2024.106029">Gu 等，<i>Sustainable Cities and Society</i>（2025）</a> <sup><a class="paper-cite" href="{{ '/zh/publications/#paper-gu2025attribution' | relative_url }}">论文</a></sup></figcaption>
+    <figcaption>图源 · <a href="https://doi.org/10.1016/j.scs.2024.106029">Gu 等，<i>Sustainable Cities and Society</i>（2025）</a></figcaption>
   </figure>
 </article>
