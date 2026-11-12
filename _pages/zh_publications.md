@@ -7,4 +7,4 @@ translation_url: /publications/
 section: publications
 ---
 
-这页很短，和我研究的某些暴雨一样。想多看一点，可以去[研究页](/zh/research/)。
+这页很短，像我研究的一些暴雨。雨只下几分钟，却能让我忙上好一阵子。更多内容见[研究页](/zh/research/)。
