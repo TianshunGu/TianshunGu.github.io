@@ -66,6 +66,13 @@ Sep 2021 – Jun 2024
 
 ---
 
+## Software Copyrights & Patents
+
+- **Software for Analyzing How Urbanization Affects Precipitation Variability (V1.0)** · 2026SR0548798 · Apr 10, 2026 · **1st of 5**
+- **Extreme Weather Simulation, Visualization, and Decision Support System (V1.0)** · 2025SR0192095 · Feb 5, 2025 · **3rd of 5**
+
+---
+
 ## Peer Review Service
 
 Quartiles reflect the highest subject category in the 2026 JCR release.
