@@ -68,13 +68,19 @@
         </a>
         <a
           href="{{ prefix | append: '/news/' | relative_url }}"
-          {% if page.news_entry %}
-            aria-current="location"
-          {% elsif page.section == 'news' %}
-            aria-current="page"
+          {% if page.section == 'news' %}
+            aria-current="{% if page.news_entry %}location{% else %}page{% endif %}"
           {% endif %}
         >
           {%- if zh %}动态{% else %}News{% endif -%}
+        </a>
+        <a
+          href="{{ prefix | append: '/moments/' | relative_url }}"
+          {% if page.section == 'moments' %}
+            aria-current="{% if page.news_entry %}location{% else %}page{% endif %}"
+          {% endif %}
+        >
+          {%- if zh %}随笔{% else %}Moments{% endif -%}
         </a>
       </nav>
       {% if page.translation_url %}

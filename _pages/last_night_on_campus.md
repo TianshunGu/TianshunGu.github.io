@@ -4,7 +4,7 @@ title: My Last Night on Campus at CUG
 permalink: /news/last-night-on-campus/
 lang: en
 translation_url: /zh/news/last-night-on-campus/
-section: news
+section: moments
 news_entry: true
 news_date: "2026-09-29"
 news_date_label: September 29, 2026

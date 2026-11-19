@@ -4,7 +4,7 @@ title: 今年在地大的最后一晚
 permalink: /zh/news/last-night-on-campus/
 lang: zh
 translation_url: /news/last-night-on-campus/
-section: news
+section: moments
 news_entry: true
 news_date: "2026-09-29"
 news_date_label: 2026 年 9 月 29 日
