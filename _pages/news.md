@@ -14,7 +14,7 @@ news_date_label: "November 2026"
 
 ## November 2026
 
-I received the National Scholarship for Doctoral Students.
+I received the National Scholarship for Doctoral Students. It took a lot of work to get here, and this award means a great deal to me. I’ll keep working hard.
 
 ## October 2026
 
